@@ -4,7 +4,7 @@ import Herosection from './Herosection'
 
 const Home = () => {
   return (
-    <div className=' bg-[#F0F6EE] w-full min-h-screen '>
+    <div className=' bg-[#F0F6EE]  '>
 
       <Herosection/>
     

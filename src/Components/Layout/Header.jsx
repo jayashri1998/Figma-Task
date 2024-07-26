@@ -2,15 +2,17 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className='bg-[#002721] w-full'>
-    <div className=" mx-[10px] py-[8px] text-white flex">
-    <div className="flex  items-center  justify-center text-center   w-full ">
-      <span className="flex gap-x-6 mx-auto text-center ">
+    <div className='flex w-[1280px] px-[10px] py-[8px] flex-col items-center gap-[10px] bg-[#002721]'>
+    <div className="flex  ">
+    <div className="flex items-start gap-[24px] ">
+      <div className=" text-center text-[#FFF] font-montserrat text-[16px] font-medium leading-[24px] tracking-[0.32px] ">
           <span className='pl-56'>For Medical Tourism Assistance</span>
-          <a href="/" className="underline">Click here</a>
-        </span>
-        <div className="flex gap-3 justify-right items-end mx-auto ">
-          <div className="">
+          </div>
+          <a href="/" className="text-[#FFF] font-montserrat text-[16px] font-medium leading-[24px] tracking-[0.32px] underline">Click here</a>
+       </div>
+       <div className='flex items-center gap-[12px]  '>
+     
+          <div className="flex-none lg:pl-[450px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
@@ -41,7 +43,7 @@ const Header = () => {
               />
             </svg>
           </div>
-          <div className='mb-1'>
+          <div className=''>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -69,7 +71,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-    </div>
+
   );
 };
 

@@ -13,22 +13,30 @@ import contact from '../../assets/contact-us.svg'
 const Herosection = () => {
   return (
     <div className='px-[100px] py-[140px]'>
-    <div className='flex  gap-32 '> 
-    <div className='w-[517px] h-[327px]' >
-    <h2 className='text-[56px] text-[#005447] font-bold w-[447px] '>Halal Certification & Compliance</h2>
-    <p className="pt-4 uppercase tracking-wide text-[#313131] font-medium text-lg">
-    <span className="mx-2">STAY CLEAN</span>
-    <span className="mx-2">|</span>
-    <span className="mx-2">EAT GOOD</span>
-    <span className="mx-2">|</span>
-    <span className="mx-2">LIVE BETTER</span>
-  </p>
+    <div className='lg:inline-flex flex-col items-start gap-[120px]'> 
+    <div className='flex w-[1081px] items-center gap-[128px]'>
+    <div className='lg:flex flex-col w-[517px] items-start gap-[16px]'>
+      <h2 className='w-[447px] h-[207px] text-[#005447] font-montserrat text-[56px] font-bold leading-normal tracking-[1.12px]'>
+        Halal Certification & Compliance
+      </h2>
+      <p className="text-[#313131] font-montserrat text-[18px] font-medium leading-[24px] tracking-[3.6px] uppercase whitespace-nowrap pt-6">
+        <span>STAY CLEAN</span>
+        <span className='mx-2'>|</span>
+        <span>EAT GOOD</span>
+        <span className='mx-2'>|</span>
+        <span>LIVE BETTER</span>
+      </p>
+      <div className="flex flex-col items-start gap-[32px] text-[#FFF] font-montserrat text-[14px] font-semibold leading-[24px]">
+        <button className="flex px-[32px] py-[12px] justify-center items-center gap-[10px] rounded-[12px] border-[1px] border-[#005447] bg-[#008F78]">
+          View all services
+        </button>
+      </div>
+    </div>
+    <div className='w-[500px] h-[322px] shrink-0 lg:pl-8 '>
+      <img src={img} alt='img' className='w-full h-full object-cover'/>
+    </div>
+  </div>
   
-    <button className='py-3 px-8 rounded-xl bg-[#008F78] text-white mt-8'>View all services</button>
-    </div>
-    <div className=''>
-   <img src={img} alt='img' className='w-[500px] h-[322px]'/>
-    </div>
     </div>
     <div className='mt-[120px]'>
     
@@ -62,8 +70,10 @@ const Herosection = () => {
     </div>
     </div>
     <div className='mt-[120px]'>
-    <h2 className='text-[#005447]  text-[32px] font-bold'>Upcoming Events</h2>
-    <div className='flex flex-warp gap-6 pt-6'>
+    <h2 className='text-[#005447] text-[32px] font-bold font-montserrat leading-normal tracking-[0.64px]'>
+      Upcoming Events
+    </h2>
+    <div className='flex flex-wrap gap-6 pt-6'>
     <div >
     <img src={img6} alt='img1' className='w-[252px] h-[168px] rounded-t-xl'/>
     <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4 w-[252px]'>

@@ -2,10 +2,12 @@ import img from "../../assets/image9.png";
 const Navbar = () => {
   return (
     <>
-      <div className="bg-white mx-[100px] py-3 flex items-center  justify-between">
-        <div className="flex  w-[1080px]">
-          <img src={img} alt="images" className="w-12 h-12" />
-          <div className="flex mx-6 w-[368px] border  py-2 px-2.5 rounded-lg bg-[#F9FAFC] items-center">
+    <div className=" w-[1280px] inline-flex px-[100px] py-[12px] flex-col items-start gap-[10px] bg-[#FFF]  ">
+
+  <div className="flex w-[1080px] justify-between items-center">
+    <div className="flex w-[473px] items-center gap-[24px] flex-shrink-0">
+      <img src={img} alt="images" className="w-[46px] h-12" />
+      <div className="flex w-[368px] px-[10px] py-[8px] items-center gap-[10px] flex-shrink-0 rounded-[8px] border border-[#DFE3EC] bg-[#F9FAFC] text-[#9A9A9A] font-montserrat text-[14px] font-normal leading-[24px]">
           
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -36,18 +38,20 @@ const Navbar = () => {
             />
           </div>
         </div>
-        <div className="flex gap-4 w-full ">
-        <div className="flex  mx-auto gap-4 py-2 px-2.5 font-normal text-sm text-black">
-          <span className=" py-2 px-2.5 font-normal text-sm text-black"> Our Clients</span>
-          <span className=" py-2 px-2.5 font-normal text-sm text-black">Services</span>
-          <span className=" py-2 px-2.5 font-normal text-sm text-black">About us</span>
-          <span className=" py-2 px-2.5 font-normal text-sm text-black">Community</span>
+        <div className="flex items-start gap-[16px] ">
+        <div className="flex px-[10px] py-[8px] justify-center items-center gap-[16px]">
+          <span className="  text-[#000] font-montserrat text-[14px] font-normal leading-[24px]"> Our Clients</span>
+          <span className="  text-[#000] font-montserrat text-[14px] font-normal leading-[24px]">Services</span>
+          <span className="  text-[#000] font-montserrat text-[14px] font-normal leading-[24px]">About us</span>
+          <span className="  text-[#000] font-montserrat text-[14px] font-normal leading-[24px]">Community</span>
         </div>
-        <button className="flex rounded bg-[#008F78] border-[#005447] text-white py-3 px-8 font-semibold text-base ">
+        <button className="flex w-[120px] h-[40px] px-[32px] py-[12px] justify-center items-center gap-[10px] rounded-[4px] border border-[#005447] bg-[#008F78] font-montserrat text-[16px] font-semibold leading-normal">
          Login
         </button>
         </div>
       </div>
+      </div>
+
     </>
   );
 };

@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="w-full bg-[#002721]">
         <div className="lg:flex mx-auto max-w-screen-lg px-4 justify-between">
-          <span className="block text-base font-normal py-[24px] text-white">
+          <span className="text-[#FFF] py-[24px] font-montserrat text-[16px] font-normal leading-[24px]">
             Subscribe and stay up-to-date on the latest news and upcoming events
           </span>
           <div className="bg-white my-[16px] flex rounded-full px-4 gap-auto">
@@ -66,6 +66,12 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div className="w-[1280px] h-[40px] flex-shrink-0 bg-[#002D26] flex justify-center items-center">
+  <span className="text-[#DADADA] font-montserrat text-[12px] text-center font-medium leading-[24px]">
+    Copyright © halalindia
+  </span>
+</div>
+
     </>
   );
 }
