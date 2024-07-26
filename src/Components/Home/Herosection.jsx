@@ -73,7 +73,7 @@ const Herosection = () => {
     <h2 className='text-[#005447] text-[32px] font-bold font-montserrat leading-normal tracking-[0.64px]'>
       Upcoming Events
     </h2>
-    <div className='flex flex-wrap gap-6 pt-6'>
+    <div className='flex  gap-6 pt-6'>
     <div >
     <img src={img6} alt='img1' className='w-[252px] h-[168px] rounded-t-xl'/>
     <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4 w-[252px]'>

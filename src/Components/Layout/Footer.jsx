@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="w-full bg-[#002721]">
-        <div className="lg:flex mx-auto max-w-screen-lg px-4 justify-between">
+        <div className="flex mx-auto max-w-screen-lg px-4 justify-between">
           <span className="text-[#FFF] py-[24px] font-montserrat text-[16px] font-normal leading-[24px]">
             Subscribe and stay up-to-date on the latest news and upcoming events
           </span>
