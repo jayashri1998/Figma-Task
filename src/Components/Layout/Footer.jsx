@@ -1,6 +1,6 @@
 import React from 'react';
 import img from '../../assets/image9.png';
-import { width } from '@fortawesome/free-solid-svg-icons/fa0';
+
 
 const Footer = () => {
   return (
