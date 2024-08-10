@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 600px) {
+    .slick-slide img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .slick-slide {
+      padding: 10px; /* Adjust as necessary */
+    }
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-smooth::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-smooth {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

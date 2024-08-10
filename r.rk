@@ -1,0 +1,92 @@
+ <div className='mt-[60px] lg:mt-[120px]'>
+    
+    <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold'>Global Accreditations</h2>
+    <p className=' pt-4 lg:py-3 text-sm text-wrap lg:text-base font-medium lg:font-normal text-[#646464] '>Accreditation is a formal, independent verification that a program or institution meets established quality standards and is competent to carry out specific conformity assessment tasks</p>
+    
+      <div className='mt-6'>
+          <Slider {...settings}>
+            <div className='bg-white rounded-xl lg:pl-[36px] lg:pr-[37px] lg:pt-9 lg:py-[37px]'>
+              <img src={img1} alt='img1' className='lg:w-[187px] lg:h-[187px]'/>
+            </div>
+            <div className='bg-white rounded-xl md:w-[160px] md:h-[160px] pl-[36px] pr-[37px] pt-9 py-[37px]'>
+              <img src={img2} alt='img2' className='w-[113px] lg:w-[187px] lg:h-[187px]'/>
+            </div>
+            <div className='bg-white rounded-xl pl-[36px] pr-[37px] pt-9 py-[37px]'>
+              <img src={img3} alt='img3' className='lg:w-[187px] lg:h-[187px]'/>
+            </div>
+            <div className='bg-white rounded-xl pl-[36px] pr-[37px] pt-9 py-[37px]'>
+              <img src={img4} alt='img4' className='w-[187px] h-[187px]'/>
+            </div>
+          </Slider>
+        </div>
+   
+    </div>
+    
+    <div className='mt-[120px] lg:flex justify-between gap-[116px] '>
+    <div className=' w-[528px]'>
+    <h2 className='text-[#005447] text-wrap justify-normal lg:text-[32px] font-bold'>Here’s What we do</h2>
+    <p className='py-3 text-base font-normal text-[#646464]'>
+    Halal India Research Council is a NGO registered in India under section 8 by the Ministry of Corporate Affairs for service level activities. Which is providing Halal certificates for food, meat products, cosmetics and pharmaceutical products. Helps to all logistics partners world wide by its services.</p>
+    <p className='py-3 text-base font-normal text-[#646464]'>
+    Halal is a term from the Quran that means “permitted” or “lawful”. Therefore, in relation to food, Halal is used for food and other consumables that are permissible for consumption and used by Muslims, based on Islamic law, the Shariah. Halal promotes cleanliness in all aspects of a person and halal foods ensure that food consumed by a person in their daily lives are clean, hygienic and not detrimental to their health or well-being.</p>
+    </div>
+    <div className=' my-9'>
+    <img src={img5} alt='img5' className='w-[436px] h-[272px]  rounded-xl '/>
+    </div>
+    </div>
+    <div className='mt-[120px]'>
+    <h2 className='text-[#005447] text-[32px] font-bold font-montserrat leading-normal tracking-[0.64px]'>
+      Upcoming Events
+    </h2>
+    <div className='lg:flex flex-wrap gap-6 pt-6'>
+    <div >
+    <img src={img6} alt='img1' className='w-[252px] h-[168px] rounded-t-xl'/>
+    <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4 w-[252px]'>
+    <h3 className='text-base font-bold text-[#111111] '>Society Interaction</h3>
+    <p className='text-base font-normal text-[#646464]'>Basic Level interaction with elder generation peoples for society empowerment.
+    </p>
+    <a href='/' className='text-[#008F78] font-semibold text-base flex pt-4'>View more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M8.91016 19.9181L15.4302 13.3981C16.2002 12.6281 16.2002 11.3681 15.4302 10.5981L8.91016 4.07812" stroke="#008F78" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg> </a>
+    </div>
+    <p className='text-xl'></p>
+    </div>
+    <div >
+    <img src={img7} alt='img1' className='w-[252px] h-[168px] rounded-t-xl'/>
+    <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4 w-[252px]'>
+    <h3 className='text-base font-bold text-[#111111] '>School & College Meetup</h3>
+    <p className='text-base font-normal text-[#646464]'>Visiting younger generation to meet their needs and requirements.
+    </p>
+    <a href='/' className='text-[#008F78] font-semibold text-base flex pt-4'>View more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M8.91016 19.9181L15.4302 13.3981C16.2002 12.6281 16.2002 11.3681 15.4302 10.5981L8.91016 4.07812" stroke="#008F78" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg> </a>
+    </div>
+    <p className='text-xl'></p>
+    </div>
+    <div >
+    <img src={img8} alt='img1' className='w-[252px] h-[168px] rounded-t-xl'/>
+    <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4 w-[252px]'>
+    <h3 className='text-base font-bold text-[#111111] '>End Hunger Program</h3>
+    <p className='text-base font-normal text-[#646464]'>Stop hunger everyday with hand to hand effect. Day to Day visit to city.
+    </p>
+    <a href='/' className='text-[#008F78] font-semibold text-base flex pt-4'>View more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M8.91016 19.9181L15.4302 13.3981C16.2002 12.6281 16.2002 11.3681 15.4302 10.5981L8.91016 4.07812" stroke="#008F78" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg> </a>
+    </div>
+    <p className='text-xl'></p>
+    </div>
+    <div >
+    <img src={img9} alt='img1' className='w-[252px] h-[168px] rounded-t-xl'/>
+    <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4 w-[252px]'>
+    <h3 className='text-base font-bold text-[#111111] '>Celebrating leader’s day</h3>
+    <p className='text-base font-normal text-[#646464]'>Celebrating elder leaders day to empower peoples all over the world.
+    </p>
+    <a href='/' className='text-[#008F78] font-semibold text-base flex pt-4'>View more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M8.91016 19.9181L15.4302 13.3981C16.2002 12.6281 16.2002 11.3681 15.4302 10.5981L8.91016 4.07812" stroke="#008F78" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg> </a>
+    </div>
+    <p className='text-xl'></p>
+    </div>
+    </div>
+<ContactUs/>
+</div>

@@ -1,15 +1,15 @@
-import React from 'react'
-import Header from '../Layout/Header'
-import Herosection from './Herosection'
+
+import Herosection from "./Herosection";
+import Layout from "../Layout/Layout";
 
 const Home = () => {
   return (
-    <div className=' bg-[#F0F6EE]  '>
-
-      <Herosection/>
-    
+    <div className=" bg-[#F0F6EE]  ">
+      <Layout>
+        <Herosection />
+      </Layout>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

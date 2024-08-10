@@ -3,16 +3,17 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Footer from './Footer';
 
+
 const Layout = ({ children }) => {
   return (
     <div className='bg-black flex flex-col'>
       <div className='max-w-[1280px] mx-auto'>
         <Navbar />
-        <Header />
-        <main className='bg-[#F0F6EE] px-4 lg:px-0'>
+        <Header className="hidden lg:block"/>
+        <main className='bg-[#F0F6EE]  lg:px-0'>
           {children}
         </main>
-        <Footer />
+     <Footer/>
       </div>
     </div>
   );

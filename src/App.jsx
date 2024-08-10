@@ -1,6 +1,7 @@
-import Header from "./Components/Layout/Header"
-import Layout from "./Components/Layout/Layout"
+
+import Layout from "./Components/HalalDashBoard/Layout"
 import Home from "./Components/Home/Home"
+import { BrowserRouter as Router, Route , Routes} from 'react-router-dom'
 
 
 function App() {
@@ -8,12 +9,12 @@ function App() {
 
   return (
     <>
-    <div className="">
-     <Layout>
-     <Home/>
-     </Layout>
-   
-     </div>
+  <Router>
+  <Routes>
+  <Route path="/hlallaout" element={<Layout/>}/>
+  <Route path="/" element={<Home/>}/>
+  </Routes>
+  </Router>
     </>
   )
 }
