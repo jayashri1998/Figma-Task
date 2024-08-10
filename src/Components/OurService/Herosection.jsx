@@ -22,20 +22,22 @@ const Herosection = () => {
             </p>
           </h2>      
         </div>
-        <div className='flex gap-4'>
-          <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] w-[149px] h-[110px]'>
-            <span className='font-merriweather font-bold text-2xl'>2 Billion</span>
-            <p className='font-sans text-base font-normal'>People of<br/> halal market</p>
-          </div>
-          <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] w-[149px] h-[110px]'>
-            <span className='font-merriweather font-bold text-2xl'>200%</span>
-            <p className='font-sans text-base font-normal'>Profit of greater market share</p>
-          </div>
-          <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] w-[149px] h-[110px]'>
-            <span className='font-merriweather font-bold text-2xl'>56+</span>
-            <p className='font-sans text-base font-normal'>OIC countries export gateway</p>
-          </div>
-        </div>
+        <div className='flex flex-wrap gap-4'>
+  <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1  lg:w-[149px] lg:h-[110px]'>
+    <span className='font-merriweather font-bold text-base lg:text-2xl'>2 Billion</span>
+    <p className='font-sans text-sm  lg:text-base font-normal'>People of<br/> halal market</p>
+  </div>
+  <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1  lg:w-[149px] lg:h-[110px]'>
+    <span className='font-merriweather font-bold text-base lg:text-2xl'>200%</span>
+    <p className='font-sans text-sm  lg:text-base font-normal'>Profit of greater market share</p>
+  </div>
+  <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1  lg:w-[149px] lg:h-[110px]'>
+    <span className='font-merriweather font-bold text-base lg:text-2xl'>56+</span>
+    <p className='font-sans text-sm  lg:text-base font-normal'>OIC countries export gateway</p>
+  </div>
+</div>
+
+      
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import img from "../../assets/image9.png";
 import img1 from "../../assets/search-normal.svg";
-import img3 from "../../assets/User.svg";
+import img3 from "../../assets/User1.svg";
 import logo from "../../assets/image9.png";
 import close from "../../assets/close-circle.svg";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <>
       <div className=" hidden lg:block w-full inline-flex px-[100px] py-[12px] flex-col items-start gap-[10px] bg-[#FFF]  ">
-        <div className="flex w-[1080px] justify-between items-center">
+        <div className="flex w-full justify-between items-center">
           <div className="flex w-[473px] items-center gap-[24px] flex-shrink-0">
             <img src={img} alt="images" className="w-[46px] h-12" />
             <div className="flex w-[368px] px-[10px] py-[8px] items-center gap-[10px] flex-shrink-0 rounded-[8px] border border-[#DFE3EC] bg-[#F9FAFC] text-[#9A9A9A] font-sans text-[14px] font-normal leading-[24px]">
