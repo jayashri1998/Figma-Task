@@ -17,13 +17,13 @@ const MainHerosection = () => {
         >
           Halal Certification & Compliance
         </h2>
-        <p className="text-[#313131] pt-3 text-sm lg:text-lg lg:pt-[16px] font-normal lg:font-medium leading-[24px] tracking-[3.6px] uppercase whitespace-nowrap flex space-x-1 lg:space-x-2">
+        <p className="text-[#313131]  pt-3 text-xs lg:text-lg lg:pt-[16px] font-semibold lg:font-medium lg:leading-[24px] tracking-[3.6px] uppercase whitespace-nowrap flex space-x-1 lg:space-x-2">
         <span>STAY CLEAN</span>
-        <span className=" px-2 lg:px-1"> {/* Adjust px for spacing around the separator */}
+        <span className="px-1 lg:px-1"> {/* Adjust px for spacing around the separator */}
           |
         </span>
         <span>EAT GOOD</span>
-        <span className=" px-2 lg:px-1"> {/* Adjust px for spacing around the separator */}
+        <span className="px-1 lg:px-1"> {/* Adjust px for spacing around the separator */}
           |
         </span>
         <span>LIVE BETTER</span>

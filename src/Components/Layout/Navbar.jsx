@@ -20,7 +20,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className=" hidden lg:block lg:w-[1280px] inline-flex px-[100px] py-[12px] flex-col items-start gap-[10px] bg-[#FFF]  ">
+      <div className=" hidden lg:block w-full inline-flex px-[100px] py-[12px] flex-col items-start gap-[10px] bg-[#FFF]  ">
         <div className="flex w-[1080px] justify-between items-center">
           <div className="flex w-[473px] items-center gap-[24px] flex-shrink-0">
             <img src={img} alt="images" className="w-[46px] h-12" />
@@ -60,7 +60,7 @@ const Navbar = () => {
                 {" "}
                 Our Clients
               </Link>
-              <Link to='/service' className="px-[10px] py-[8px]  text-[#000] font-sans text-[14px] font-normal leading-[24px]">
+              <Link to='/ourservices' className="px-[10px] py-[8px]  text-[#000] font-sans text-[14px] font-normal leading-[24px]">
                 Services
               </Link>
               <Link to='/about us' className=" px-[10px] py-[8px] text-[#000] font-sans text-[14px] font-normal leading-[24px]">

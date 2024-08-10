@@ -33,7 +33,7 @@ const ContactUs = () => {
         <img src={contact} alt='Contact Us' className='lg:py-[58.19px] lg:px-[59.79px] w-full h-full object-cover' />
       </div>
      
-      <div className="order-2 lg:order-1 mt-6 lg:mt-1 shrink-0 flex flex-col space-y-4">
+      <div className="order-2 lg:order-1 mt-6  w-full max-w-[365px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-full lg:mt-1 shrink-0 flex flex-col space-y-4">
       <div className="flex flex-col space-y-1">
         <label htmlFor="fullName" className="text-[#646464] font-medium text-sm lg:font-semibold lg:text-base">
           Your Full Name

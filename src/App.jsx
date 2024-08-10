@@ -1,7 +1,8 @@
 
-import Layout from "./Components/HalalDashBoard/Layout"
+import Layout from "./Components/Layout/Layout"
 import Home from "./Components/Home/Home"
 import { BrowserRouter as Router, Route , Routes} from 'react-router-dom'
+import Service from "./Components/OurService/Service"
 
 
 function App() {
@@ -10,10 +11,14 @@ function App() {
   return (
     <>
   <Router>
+  <Layout>
+  
   <Routes>
-  <Route path="/hlallaout" element={<Layout/>}/>
-  <Route path="/" element={<Home/>}/>
+ <Route path="/" element={<Home/>}/>
+  <Route path="/ourservices" element={<Service/>}/>
+ 
   </Routes>
+  </Layout>
   </Router>
     </>
   )

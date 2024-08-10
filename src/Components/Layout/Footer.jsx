@@ -11,14 +11,14 @@ const Footer = () => {
         <span className="text-[#FFF] py-[24px] text-center justify-center flex lg:text-left text-[16px] font-normal lg:leading-[24px]">
           Subscribe and stay up-to-date on the latest news and upcoming events
         </span>
-        <div className="bg-white my-[16px] w-full sm:w-[340px] border border-gray-800 flex rounded-full px-4 lg:px-6 lg:w-auto">
+        <div className="bg-white my-[16px] w-full sm:w-[300px] border border-gray-800 flex rounded-full px-4 lg:px-6 lg:w-auto">
           <input
             name="email"
             id="email"
             placeholder="Enter email address"
             className="text-[#313131] w- lg:w-auto flex-grow lg:flex-grow-0"
           />
-          <button className="text-white text-sm font-semibold rounded-full  mx-5 lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447] ml-2">
+          <button className="text-white text-sm font-semibold rounded-full   lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447] ml-2">
             Subscribe
           </button>
         </div>
