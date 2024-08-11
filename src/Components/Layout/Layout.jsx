@@ -6,16 +6,17 @@ import Footer from './Footer';
 
 const Layout = ({ children }) => {
   return (
-    <div className='bg-black flex flex-col'>
-      <div className='max-w-[1280px] mx-auto'>
-        <Navbar />
-        <Header className="hidden lg:block"/>
-        <main className='bg-[#F0F6EE]  lg:px-0'>
-          {children}
-        </main>
-     <Footer/>
-      </div>
+    <div className='bg-black flex flex-col min-h-screen'>
+    <div className='w-full max-w-[1280px] mx-auto flex flex-col'>
+      <Navbar />
+      <Header className='hidden lg:block' />
+      <main className='bg-[#F0F6EE] flex-grow px-4 lg:px-0'>
+        {children}
+      </main>
+      <Footer />
     </div>
+  </div>
+  
   );
 };
 

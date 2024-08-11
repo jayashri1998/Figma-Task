@@ -10,14 +10,14 @@ const MainHerosection = () => {
       </div>
 
       {/* Text section */}
-      <div className="order-2 lg:order-1 lg:flex flex-col lg:w-[517px] items-start -mb-1">
+      <div className="order-2 lg:order-1 lg:flex flex-col  lg:w-[517px] items-start -mb-1">
         <h2
-          className="w-[268px] lg:w-[447px] lg:h-[207px] text-[#005447]  text-[32px] lg:text-[56px] font-bold tracking-[1.12px]"
+          className="w-[268px] lg:w-[447px] pl-3 lg:pl-0 lg:h-[207px] text-[#005447]  text-[32px] lg:text-[56px] font-bold tracking-[1.12px]"
           style={{ lineHeight: 'normal' }}
         >
           Halal Certification & Compliance
         </h2>
-        <p className="text-[#313131]  pt-3 text-xs lg:text-lg lg:pt-[16px] font-semibold lg:font-medium lg:leading-[24px] tracking-[3.6px] uppercase whitespace-nowrap flex space-x-1 lg:space-x-2">
+        <p className="text-[#313131] pl-3 lg:pl-0 pt-3 text-xs lg:text-lg lg:pt-[16px] font-semibold lg:font-medium lg:leading-[24px] tracking-[3.6px] uppercase whitespace-nowrap flex space-x-1 lg:space-x-2">
         <span>STAY CLEAN</span>
         <span className="px-1 lg:px-1"> {/* Adjust px for spacing around the separator */}
           |
@@ -29,7 +29,7 @@ const MainHerosection = () => {
         <span>LIVE BETTER</span>
       </p>
       
-        <div className="flex flex-col items-start pt-6 lg:pt-[32px] text-[#FFF] text-[14px] font-semibold leading-[24px]">
+        <div className="flex flex-col pl-3 lg:pl-0 items-start pt-6 lg:pt-[32px] text-[#FFF] text-[14px] font-semibold leading-[24px]">
           <button className="flex px-[32px] py-[12px] justify-center items-center gap-[10px] rounded-[12px] border-[1px] border-[#005447] bg-[#008F78]">
             View all services
           </button>

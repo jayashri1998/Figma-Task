@@ -11,16 +11,16 @@ import SocialService from './SocialService'
 const Herosection = () => {
 
   return (
-    <div className=' p-3 lg:px-[100px] lg:py-[140px]'>
+    <div className=' px-3 py-3 lg:px-[100px] lg:py-[140px]'>
     <div className='lg:inline-flex flex-col items-start gap-[120px]'> 
   
   <MainHerosection/>
     </div>
-  <Card/>
-   <HalalService/>
-   <SocialService/>
-   <ContactUs/>
-
+    <Card/>
+    <HalalService/>
+    <SocialService/>
+    <ContactUs/>
+  
     </div>
   )
 }
