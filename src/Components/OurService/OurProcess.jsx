@@ -2,7 +2,7 @@ import React from 'react'
 import img5 from '../../assets/OurServices.svg'
 const Ourprocess = () => {
   return (
-    <div className='mt-[60px] lg:mt-[120px] font-sans'>
+    <div className='mt-[60px] lg:mt-[120px] font-montserrat'>
     <h2 className='text-[#005447] text-wrap justify-normal lg:text-[32px] font-bold'>Our Process</h2>
     <div className='flex flex-col lg:flex-row lg:justify-between gap-6 lg:gap-[116px]'>
       <div className='order-1 lg:order-2 lg:flex lg:justify-center lg:items-center shrink-0 mt-6 lg:mt-0'>
@@ -10,8 +10,8 @@ const Ourprocess = () => {
       </div>
       <div className='order-2 lg:order-1 mt-6 lg:mt-3 shrink-0 lg:w-[528px]'>
         <div className=' text-sm lg:text-base  font-normal text-[#646464]'>
-       <span className=' text-[#313131] lg:font-medium font-semibold text-sm lg:text-base'>  While providing Halal certification, a competent authority audits and ensures that the business:</span>
-<ul className='list-disc px-5 text-[#313131] space-y-6 mt-6 font-medium  lg:font-normal text-sm lg:text-base'>
+       <span className=' text-[#313131] leading-6 lg:font-medium font-semibold text-sm lg:text-base'>  While providing Halal certification, a competent authority audits and ensures that the business:</span>
+<ul className='list-disc px-5 text-[#313131] leading-6 space-y-6 mt-6 font-medium  lg:font-normal text-sm lg:text-base'>
 <li className='' >Neither is nor consist of or contains any part or matter of an animal that a Muslim is prohibited by Shariah to consume or that has not been slaughtered in accordance with Shariah.</li>
 
 <li>Does not contain anything which is considered to be impure according to Shariah.</li>
@@ -25,10 +25,10 @@ Has not in the course of preparation, processing or storage been in contact with
         
       </div>
     </div>
-    <div className='mt-[40px] space-y-6 w-full font-sans'>
+    <div className='mt-[40px] space-y-6 w-full font-montserrat'>
     <div className='border rounded-lg bg-white p-4'>
     <h2 className='gap-[3px]'>
-    <span className='font-medium text-lg text-[#646464]'>Step 1</span>
+    <span className='font-medium text-lg lg:leading-[24px] tracking-[2.5px] uppercase whitespace-nowrap  text-[#646464]'>STEP 1</span>
     <p className='text-[#005447] font-bold
      text-xl lg:text-2xl'>Application</p>
     </h2>
@@ -36,7 +36,7 @@ Has not in the course of preparation, processing or storage been in contact with
     </div>
     <div className='border rounded-lg bg-white p-4'>
     <h2 className='gap-[3px]'>
-    <span className='font-medium text-lg text-[#646464]'>Step 2</span>
+    <span className='font-medium text-lg lg:leading-[24px] tracking-[2.5px] uppercase whitespace-nowrap  text-[#646464]'>Step 2</span>
     <p className='text-[#005447] font-bold
      text-xl lg:text-2xl'>Audit</p>
     </h2>
@@ -57,11 +57,11 @@ Has not in the course of preparation, processing or storage been in contact with
     </div>
     <div className='border rounded-lg bg-white p-4'>
     <h2 className='gap-[3px]'>
-    <span className='font-medium text-lg text-[#646464]'>Step 3</span>
+    <span className='font-medium text-lglg:leading-[24px] tracking-[2.5px] uppercase whitespace-nowrap  text-[#646464]'>Step 3</span>
     <p className='text-[#005447] font-bold
      text-xl lg:text-2xl'>Certification</p>
     </h2>
-    <p className='pt-6 font-normal text-base text-justify text-[#2A422B]'>Once the Halal audit is complete, a Technical Committee will review the documents submitted by the business and the audit report submitted by the Auditors. If the audit report is satisfactory and the business and/or products satisfy the Halal certification criteria’s, then the Halal Certification Body issues the Halal Certificate.</p>
+    <p className='pt-6 font-normal text-base text-justify leading-6  text-[#2A422B]'>Once the Halal audit is complete, a Technical Committee will review the documents submitted by the business and the audit report submitted by the Auditors. If the audit report is satisfactory and the business and/or products satisfy the Halal certification criteria’s, then the Halal Certification Body issues the Halal Certificate.</p>
     </div>
   
     </div>

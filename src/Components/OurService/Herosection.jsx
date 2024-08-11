@@ -17,7 +17,7 @@ const Herosection = () => {
             style={{ lineHeight: 'normal' }}
           >
             Our Services
-            <p className="text-[#313131]  text-sm lg:text-base pt-[16px] font-normal">
+            <p className="text-[#313131]  text-sm lg:text-base pt-[16px] font-normal leading-6">
               Giving opportunities for entrepreneurs to tap the global market of 2 Trillion.
             </p>
           </h2>      

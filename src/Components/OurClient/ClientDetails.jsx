@@ -6,8 +6,8 @@ import ClientContactUs from "./ContactUs";
 const ClientDetails = () => {
   return (
     <>
-    <div className="bg-[#8ad5e2] pt-[21px] pb-[38px] font-sans -mx-4  lg:-mx-0">
-    <div className="max-w-screen-lg mx-auto px-4 lg:px-8">
+    <div className="lg:bg-gradient-to-r from-[#7FDBB4] to-[#8FD3F4]  pt-[20px] lg:pt-[21px] lg:pb-[38px] font-montserrat   lg:-mx-0">
+    <div className="max-w-screen-lg mx-auto  lg:px-8">
       <form className="bg-white max-w-md mx-auto mt-5 w-full lg:w-[527px] shadow-lg rounded-xl">
         <div className="flex gap-4 p-4">
           <button className="inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -16,7 +16,7 @@ const ClientDetails = () => {
           <input
             type="search"
             id="default-search"
-            className="text-base font-normal w-full font-sans"
+            className="text-base font-normal w-full font-montserrat"
             placeholder="Search for companies / products / services"
             required
           />
@@ -25,7 +25,7 @@ const ClientDetails = () => {
     </div>
   </div>
   
-      <div className="mt-10 space-y-4 w-full  p-3 lg:px-[100px]">
+      <div className=" mt-10 space-y-4 w-full   lg:px-[100px] font-montserrat">
         <div className="bg-white border border-gray-50 rounded-lg p-4 flex  gap-6">
           <img src={Logo1} alt="Logo" />
           <h3 className="flex-col gap-[2px]">
@@ -49,24 +49,24 @@ const ClientDetails = () => {
               <div className="bg-[#F6F8FA] rounded-xl mb-4 py-6 px-4">
                 <div className="lg:flex  space-y-6 lg:space-y-0 lg:gap-6">
                   <div className=" space-y-3 lg:w-[202px]">
-                    <div className="text-sm font-medium font-sans text-[#9A9A9A]">
+                    <div className="text-sm font-medium font-montserrat text-[#9A9A9A]">
                       Certificate Status
                     </div>
-                    <button className="px-[10px] py-2 rounded text-white w-[84px] bg-[#0072DA]">
+                    <button className="px-[10px] text-xs font-semibold py-2 rounded text-white w-[84px] bg-[#0072DA]">
                       Active
                     </button>
                   </div>
-                  <div className=" space-y-3 lg:w-[339px]">
-                    <div className="text-sm font-medium font-sans text-[#9A9A9A]">
+                  <div className=" space-y-3 w-full lg:w-[339px]">
+                    <div className="text-sm font-medium font-montserrat text-[#9A9A9A]">
                       Certificate Number
                     </div>
-                    <span className=" flex font-medium text-xl text-[#313131]  ">
+                    <span className=" flex font-medium w-full text-xl gap-2 leading-6 text-[#313131]  ">
                       076019 / 02082023 / 1010
                       <img src={Copy} alt="copyimg" />
                     </span>
                   </div>
                   <div className=" space-y-3 lg:w-[202px]">
-                    <div className="text-sm font-medium font-sans text-[#9A9A9A]">
+                    <div className="text-sm font-medium font-montserrat text-[#9A9A9A]">
                       Date of Expiry
                     </div>
                     <div className="   text-[#CC3931]  font-medium text-lg  ">

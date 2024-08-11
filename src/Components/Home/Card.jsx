@@ -25,18 +25,19 @@ const Card = () => {
 
       {/* Card Container */}
       <div className='mt-6 flex gap-[14px] w-full max-w-[365px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-full lg:gap-6 overflow-x-hidden snap-x snap-mandatory'>
-        {images.map((image, index) => (
-          <div
-            key={index}
-            ref={(el) => (cardRefs.current[index] = el)}
-            className={`bg-white rounded-xl p-6 min-w-[252px] ${
-              activeIndex === index ? 'sm:ring-2 sm:ring-[#005447] md:ring-2 md:ring-[#005447] lg:ring-0' : ''
-            } pl-[36px] pr-[37px] pt-9 py-[37px] snap-center`}
-          >
-            <img src={image} alt={`img${index + 1}`} className='l' />
-          </div>
-        ))}
-      </div>
+  {images.map((image, index) => (
+    <div
+      key={index}
+      ref={(el) => (cardRefs.current[index] = el)}
+      className={`bg-white rounded-xl p-6 min-w-[160px] w-[160px] h-[160px] lg:w-[252px] lg:h-[252px] flex items-center justify-center ${
+        activeIndex === index ? '' : ''
+      } snap-center`}
+    >
+      <img src={image} alt={`img${index + 1}`} className='max-w-full max-h-full' />
+    </div>
+  ))}
+</div>
+
 
       {/* Indicator Buttons (Only visible on mobile) */}
       <div className='mt-4 flex justify-center w-full lg:hidden'>

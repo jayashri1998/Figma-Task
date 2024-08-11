@@ -18,9 +18,9 @@ const OurService = () => {
 
  
   return (
-    <div className='mt-[60px] lg:mt-[120px] overflow-hidden font-sans'>
+    <div className='mt-[60px] lg:mt-[120px] overflow-hidden font-montserrat'>
     <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold'>Services</h2>
-    <p className='pt-4 lg:pt-3 text-sm text-justify lg:text-base font-medium lg:font-normal text-[#646464]'>
+    <p className='pt-4 lg:pt-3 text-sm text-justify lg:text-base font-medium lg:font-normal text-[#646464] leading-6'>
     We provide services to help alleviate poverty by enabling access to the basic necessities of life including clean, safe and nutritious food, clean and safe drinking water, shelter, education and livelihoods for people deprived from such access.
     </p>
 

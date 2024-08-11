@@ -11,7 +11,7 @@ import SocialService from './SocialService'
 const Herosection = () => {
 
   return (
-    <div className=' px-3 py-3 lg:px-[100px] lg:py-[140px] font-sans'>
+    <div className=' px-3 py-3 lg:px-[100px] lg:py-[140px] font-montserrat leading-6'>
     <div className='lg:inline-flex flex-col items-start gap-[120px]'> 
   
   <MainHerosection/>

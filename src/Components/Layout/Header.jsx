@@ -6,10 +6,10 @@ const Header = () => {
     <div className='hidden lg:block flex w-[1280px] px-[10px] py-[8px] flex-col items-center gap-[10px] bg-[#002721] relative'>
   <div className="flex w-full">
     <div className="flex justify-center items-start gap-[24px] mx-auto">
-      <div className="text-center text-[#FFF] font-sans text-[16px] font-medium leading-[24px] tracking-[0.32px]">
+      <div className="text-center text-[#FFF] font-montserrat text-[16px] font-medium leading-[24px] tracking-[0.32px]">
         <span>For Medical Tourism Assistance</span>
       </div>
-      <a href="/" className="text-[#FFF] font-sans text-[16px] font-medium leading-[24px] tracking-[0.32px] underline">
+      <a href="/" className="text-[#FFF] font-montserrat text-[16px] font-medium leading-[24px] tracking-[0.32px] underline">
         Click here
       </a>
     </div>

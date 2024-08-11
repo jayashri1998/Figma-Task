@@ -2,13 +2,13 @@ import React from 'react'
 import img5 from '../../assets/img5.svg'
 const OurObjective = () => {
   return (
-    <div className='mt-[60px] lg:mt-[120px] font-sans'>
+    <div className='mt-[60px] lg:mt-[120px] font-montserrat'>
     <h2 className='text-[#005447] text-wrap justify-normal lg:text-[32px] font-bold'>Our Objective</h2>
     <div className='flex flex-col lg:flex-row lg:justify-between gap-6 lg:gap-[116px]'>
       <div className='order-1 lg:order-2 flex justify-center items-center shrink-0 mt-6 lg:mt-0'>
         <img src={img5} alt='Halal Service' className='  rounded-xl'/>
       </div>
-      <div className='order-2 lg:order-1  shrink-0 lg:w-[528px]'>
+      <div className='order-2 lg:order-1 leading-6 shrink-0 lg:w-[528px]'>
         <div className=' text-sm lg:text-base font-normal text-[#646464]'>
        <span className='lg:text-[#646464] text-gray-800'>  The objects for which the council is established are:</span>
 <ul className='list-disc px-5 space-y-6 mt-6'>

@@ -12,7 +12,7 @@ const Herosection = () => {
         >
           About Us
         </h2>
-        <p className="text-[#313131] pt-4 font-normal text-base">
+        <p className="text-[#313131] pt-4 font-normal text-base leading-6 font-montserrat">
           Halal India Research Council is an NGO registered in India under section 8 by the Ministry of Corporate Affairs for service level activities. It provides Halal certificates for food, meat products, cosmetics, and pharmaceutical products. It also helps all logistics partners worldwide with its services.
         </p>
     

@@ -6,7 +6,7 @@ import ClientContactUs from "./ContactUs";
 
 const OurClient = () => {
   return (
-    <div className="  font-sans ">
+    <div className="  font-montserrat ">
       <Herosection />
       <Certificate />
      

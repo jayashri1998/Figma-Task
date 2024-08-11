@@ -138,6 +138,87 @@ const content = [
     expiry_date: "20 May 2023",
     product: "FMCG",
   },
+  {
+    id: 7,
+    img: Logo7,
+    company_name: "Asian Paints Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "Decorative goods",
+  },
+  {
+    id: 6,
+    img: Logo4,
+    company_name: "Titan Company Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "FMCG",
+  },
+  {
+    id: 6,
+    img: Logo4,
+    company_name: "Titan Company Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "FMCG",
+  },
+  {
+    id: 6,
+    img: Logo4,
+    company_name: "Titan Company Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "FMCG",
+  },
+  {
+    id: 6,
+    img: Logo4,
+    company_name: "Titan Company Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "FMCG",
+  },
+  {
+    id: 7,
+    img: Logo7,
+    company_name: "Asian Paints Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "Decorative goods",
+  },
+  {
+    id: 6,
+    img: Logo4,
+    company_name: "Titan Company Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "FMCG",
+  },
+  {
+    id: 6,
+    img: Logo4,
+    company_name: "Titan Company Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "FMCG",
+  },
+  {
+    id: 6,
+    img: Logo4,
+    company_name: "Titan Company Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "FMCG",
+  },
+  {
+    id: 6,
+    img: Logo4,
+    company_name: "Titan Company Ltd",
+    certificate_status: "Active ",
+    expiry_date: "20 May 2023",
+    product: "FMCG",
+  },
+  
 ];
 const Certificate = () => {
   const formSectionRef = useRef(null);
@@ -313,35 +394,38 @@ const Certificate = () => {
     
     
 
-      <div className="flex lg:justify-center mt-12 gap-4  lg:gap-6">
-        <button
-          onClick={handlePrevPage}
-          disabled={currentPage === 1}
-          className="px-4 py-2 mx-2 mb-[92px] border border-[#005447] bg-[#008F78] rounded-lg disabled:opacity-50 text-white "
-        >
-          Previous
-        </button>
-        {Array.from({ length: totalPages }, (_, index) => (
-          <button
-            key={index + 1}
-            onClick={() => handlePageClick(index + 1)}
-            className={`p-[10px] gap-2 w-[40px] h-[40px] mb-[92px] ${
-              currentPage === index + 1
-                ? "bg-[#313131] text-white"
-                : "bg-white border border-gray-200   text-gray-300"
-            } rounded-lg`}
-          >
-            {index + 1}
-          </button>
-        ))}
-        <button
-          onClick={handleNextPage}
-          disabled={currentPage === totalPages}
-          className="p-[10px]  border bg-[#005447] mb-[92px] text-white rounded-lg disabled:opacity-50"
-        >
-          Next
-        </button>
-      </div>
+    <div className="flex justify-center mt-12 gap-4 lg:gap-6 overflow-x-auto whitespace-nowrap">
+  <button
+    onClick={handlePrevPage}
+    disabled={currentPage === 1}
+    className="px-4 py-2 mb-[92px] border border-[#005447] bg-[#008F78] rounded-lg disabled:opacity-50 text-white"
+  >
+    Previous
+  </button>
+  <div className="flex space-x-2">
+    {Array.from({ length: totalPages }, (_, index) => (
+      <button
+        key={index + 1}
+        onClick={() => handlePageClick(index + 1)}
+        className={`p-[10px] w-[40px] h-[40px] mb-[92px] ${
+          currentPage === index + 1
+            ? "bg-[#313131] text-white"
+            : "bg-white border border-gray-200 text-gray-300"
+        } rounded-lg`}
+      >
+        {index + 1}
+      </button>
+    ))}
+  </div>
+  <button
+    onClick={handleNextPage}
+    disabled={currentPage === totalPages}
+    className="px-4 py-2 mb-[92px] border bg-[#005447] text-white rounded-lg disabled:opacity-50"
+  >
+    Next
+  </button>
+</div>
+
     </div>
   );
 };

@@ -24,7 +24,7 @@ const ClientContactUs = () => {
   };
 
   return (
-    <div className="mt-[60px] lg:mt-[120px]  lg:space-y-0 font-sans">
+    <div className="mt-[60px] lg:mt-[120px]   lg:space-y-0 font-montserrat" >
       <h2 className="text-[rgb(0,84,71)]     text-xl lg:text-[32px] font-bold">
         Contact savorybites for more details
       </h2>
@@ -150,7 +150,7 @@ const ClientContactUs = () => {
               </div>
             </div>
 
-            <button className="flex mt-8 rounded-xl text-sm font-semibold lg:w-[400px] p-[12px_32px] justify-center items-center lg:gap-[10px] bg-[#008F78] text-white">
+            <button className="flex mt-8 mb-24 rounded-xl text-sm font-semibold lg:w-[400px] p-[12px_32px] justify-center items-center lg:gap-[10px] bg-[#008F78] text-white">
               Submit
             </button>
           </div>

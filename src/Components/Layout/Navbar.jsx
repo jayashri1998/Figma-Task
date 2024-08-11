@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="flex w-full justify-between items-center">
           <div className="flex w-[473px] items-center gap-[24px] flex-shrink-0">
             <img src={img} alt="images" className="w-[46px] h-12" />
-            <div className="flex w-[368px] px-[10px] py-[8px] items-center gap-[10px] flex-shrink-0 rounded-[8px] border border-[#DFE3EC] bg-[#F9FAFC] text-[#9A9A9A] font-sans text-[14px] font-normal leading-[24px]">
+            <div className="flex w-[368px] px-[10px] py-[8px] items-center gap-[10px] flex-shrink-0 rounded-[8px] border border-[#DFE3EC] bg-[#F9FAFC] text-[#9A9A9A] font-montserrat text-[14px] font-normal leading-[24px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -59,7 +59,7 @@ const Navbar = () => {
           <NavLink 
             to='/ourclient' 
             className={({ isActive }) => 
-              `px-[10px] py-[8px] font-sans text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000]'}`
+              `px-[10px] py-[8px] font-montserrat text-sm font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000000]'}`
             }
           >
             Our Clients
@@ -68,7 +68,7 @@ const Navbar = () => {
           <NavLink 
             to='/ourservices' 
             className={({ isActive }) => 
-              `px-[10px] py-[8px] font-sans text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000]'}`
+              `px-[10px] py-[8px] font-montserrat text-sm font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000000]'}`
             }
           >
             Services
@@ -77,7 +77,7 @@ const Navbar = () => {
           <NavLink 
             to='/about' 
             className={({ isActive }) => 
-              `px-[10px] py-[8px] font-sans text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000]'}`
+              `px-[10px] py-[8px] font-montserrat text-sm font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'ttext-[#000000]'}`
             }
           >
             About us
@@ -86,13 +86,13 @@ const Navbar = () => {
           <NavLink 
             to='/community' 
             className={({ isActive }) => 
-              `px-[10px] py-[8px] font-sans text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000]'}`
+              `px-[10px] py-[8px] font-montserrat text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000000]'}`
             }
           >
             Community
           </NavLink>
         </div>
-            <Link to='/login' className="flex w-[120px] h-[40px] px-[32px] py-[12px] justify-center items-center gap-[10px] rounded-[4px] border border-[#005447] bg-[#008F78] font-sans text-[16px] font-semibold text-white leading-normal">
+            <Link to='/login' className="flex w-[120px] h-[40px] px-[32px] py-[12px] justify-center items-center gap-[10px] rounded-[4px] border border-[#005447] bg-[#008F78]  text-[16px] font-semibold text-white leading-normal  ">
               Login
             </Link>
           </div>

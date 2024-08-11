@@ -9,6 +9,8 @@ export default {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         merriweather: ['Merriweather', 'serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+
       },
     },
   },

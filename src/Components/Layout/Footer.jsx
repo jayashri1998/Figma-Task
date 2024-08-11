@@ -5,7 +5,7 @@ import img from '../../assets/image9.png';
 const Footer = () => {
   return (
   
-      < div className=''>
+      < div className='font-montserrat'>
       <div className="w-full bg-[#002721] p-3">
       <div className="lg:flex mx-auto max-w-screen-lg px-2 lg:px-4  lg:justify-between flex-col lg:flex-row">
         <span className="text-[#FFF] py-[24px] text-center justify-center flex lg:text-left text-[16px] font-normal lg:leading-[24px]">
@@ -18,7 +18,7 @@ const Footer = () => {
             placeholder="Enter email address"
             className="text-[#313131] w-full lg:w-auto flex-grow lg:flex-grow-0"
           />
-          <button className="text-white text-sm font-semibold rounded-full   lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447]">
+          <button className="text-white text-sm py-2  font-semibold rounded-full   lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447]">
             Subscribe
           </button>
         </div>
@@ -79,7 +79,7 @@ const Footer = () => {
           
           </div>
           <div className="block lg:hidden mt-[40px] flex flex-shrink-0 bg-[#002D26]  justify-center items-center">
-        <span className="text-[#DADADA] font-sans text-[12px] text-center font-medium leading-[24px]">
+        <span className="text-[#DADADA] font-montserrat text-[12px] text-center font-medium leading-[24px]">
           Copyright © halalindia
         </span>
       </div>
@@ -87,7 +87,7 @@ const Footer = () => {
      
       </footer>
       <div className="hidden lg:block w-[1280px] h-[40px] py-2 flex-shrink-0 bg-[#002D26]  ">
-  <span className="text-[#DADADA] font-sans text-[12px] flex text-center justify-center items-center font-medium leading-[24px]">
+  <span className="text-[#DADADA] font-montserrat text-[12px] flex text-center justify-center items-center font-medium leading-[24px]">
     Copyright © halalindia
   </span>
 </div>

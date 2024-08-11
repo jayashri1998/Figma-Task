@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
-    <div className='items-center flex justify-center py-6 lg:pt-[163px] lg:pb-[154px] font-sans'>
+    <div className='items-center flex justify-center py-6 lg:pt-[163px] lg:pb-[154px] font-montserrat'>
     <div className='bg-white  p-6   lg:p-10 shadow-lg rounded-xl' >
     <div className='flex-col space-y-6'>
     <div className='flex gap-3'>
     <img src={img} alt='img' className='w-[30.69px] h-8'/>
     <span className='flex-col space-y-1'>
-    <span className='font-bold text-base font-sans text-[#2B2B35]'>Welcome to Halal India</span>
-    <p className='text-xs font-normal text-[#646464] font-sans'>     Please login to get access of all the services</p>
+    <span className='font-bold text-base leading-6 font-montserrat text-[#2B2B35]'>Welcome to Halal India</span>
+    <p className='text-xs font-normal leading-3 text-[#646464] font-montserrat'>     Please login to get access of all the services</p>
     </span>
     </div>
     <div className='flex-col space-y-4 lg:w-[340px]'>
     <div className='space-y-1 flex flex-col'>
-    <label className='text-sm font-semibold text-[#646464] font-sans'>Email or Phone Number</label>
+    <label className='text-sm font-semibold text-[#646464] font-montserrat'>Email or Phone Number</label>
     <input
       type='text'
       placeholder='Enter here'
@@ -24,7 +24,7 @@ const Login = () => {
     />
   </div>
   <div className='space-y-1 flex flex-col'>
-    <label className='text-sm font-semibold text-[#646464] font-sans'>Password</label>
+    <label className='text-sm font-semibold text-[#646464] font-montserrat'>Password</label>
     <input
       type='text'
       placeholder='Enter Password'
@@ -39,7 +39,7 @@ const Login = () => {
 
 
     </div>
-    <p className='flex pt-4 justify-end'><span className='font-normal text-black text-base font-sans'>New user? </span><Link to='/signup' className='text-[#008F78] font-semibold text-base font-sans underline pl-1 '>Register here</Link></p>
+    <p className='flex pt-4 justify-end leading-6'><span className='font-normal text-black text-base font-montserrat'>New user? </span><Link to='/signup' className='text-[#008F78] font-semibold text-base font-montserrat underline pl-1 '>Register here</Link></p>
     </div>
     </div>
   )

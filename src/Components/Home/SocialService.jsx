@@ -50,7 +50,7 @@ const SocialService = () => {
   };
 
   return (
-    <div className='mt-[60px] lg:mt-[120px] overflow-hidden font-sans'>
+    <div className='mt-[60px] lg:mt-[120px] overflow-hidden font-montserrat'>
       <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold leading-normal tracking-[0.64px]'>
         Upcoming Events
       </h2>
@@ -68,7 +68,7 @@ const SocialService = () => {
             />
             <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4'>
               <h3 className='text-base font-bold text-[#111111]'>{event.title}</h3>
-              <p className='text-base font-normal text-[#646464]'>
+              <p className='text-base leading-6 font-normal text-[#646464]'>
                 {event.description}
               </p>
               <a
