@@ -25,7 +25,7 @@ const ContactUs = () => {
 
   return (
     <div className='mt-[60px] lg:mt-[120px]  lg:space-y-0 font-montserrat'>
-      <h2 className='text-[rgb(0,84,71)]  text-xl lg:text-[32px] font-bold'>Contact Us</h2>
+      <h2 className='text-[rgb(0,84,71)]  text-xl lg:text-[32px] font-bold'>Contact us</h2>
       <p className=' pt-4  lg:pt-3 text-sm lg:pb-4 lg:text-base lg:font-normal text-[#646464]'>Please fill out the form and we will reach out to you soon</p>
       <div className='lg:bg-white mt-6  lg:mt-[16px] rounded-xl lg:p-10'>
         <div className='lg:flex lg:flex-row flex-col-reverse gap-10'>
