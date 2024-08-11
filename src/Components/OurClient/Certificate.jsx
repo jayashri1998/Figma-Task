@@ -142,6 +142,7 @@ const content = [
 const Certificate = () => {
   const formSectionRef = useRef(null);
   const [currentPage, setCurrentPage] = useState(1);
+ 
   const itemsPerPage = 6;
 
   const scrolltoForm = () => {
@@ -168,6 +169,7 @@ const Certificate = () => {
   const handlePageClick = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
+
   return (
     <div className="mt-[60px] lg:mt-0 font-sans   ">
       <h2 className="text-[#005447] px-4 lg:px-[100px] text-wrap justify-normal lg:text-[32px] font-bold">

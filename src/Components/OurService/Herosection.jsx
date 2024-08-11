@@ -22,20 +22,21 @@ const Herosection = () => {
             </p>
           </h2>      
         </div>
-        <div className='flex flex-wrap gap-4'>
-  <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1  lg:w-[149px] lg:h-[110px]'>
-    <span className='font-merriweather font-bold text-base lg:text-2xl'>2 Billion</span>
-    <p className='font-sans text-sm  lg:text-base font-normal'>People of<br/> halal market</p>
-  </div>
-  <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1  lg:w-[149px] lg:h-[110px]'>
-    <span className='font-merriweather font-bold text-base lg:text-2xl'>200%</span>
-    <p className='font-sans text-sm  lg:text-base font-normal'>Profit of greater market share</p>
-  </div>
-  <div className='border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1  lg:w-[149px] lg:h-[110px]'>
-    <span className='font-merriweather font-bold text-base lg:text-2xl'>56+</span>
-    <p className='font-sans text-sm  lg:text-base font-normal'>OIC countries export gateway</p>
-  </div>
-</div>
+        <div className='flex  gap-2 lg:gap-4'>
+        <div className='border border-[#88c7b6] rounded-xl  p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[100px] min-h-[84px] max-w-[200px] lg:max-w-[149px] lg:h-[110px]'>
+          <span className='font-merriweather font-bold text-sm lg:text-2xl'>2 Billion</span>
+          <p className='font-sans text-xs lg:text-base font-normal'>People of<br/> halal market</p>
+        </div>
+        <div className='border border-[#88c7b6] rounded-xl p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[110px] min-h-[84px] max-w-[200px] lg:max-w-[149px] lg:h-[110px]'>
+          <span className='font-merriweather font-bold text-base lg:text-2xl'>200%</span>
+          <p className='font-sans text-xs lg:text-base font-normal'>Profit of greater market share</p>
+        </div>
+        <div className='border border-[#88c7b6] rounded-xl  p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[110px] min-h-[84px] max-w-[200px] lg:max-w-[149px] lg:h-[110px]'>
+          <span className='font-merriweather font-bold text-base lg:text-2xl'>56+</span>
+          <p className='font-sans text-xs lg:text-base font-normal'>OIC countries export gateway</p>
+        </div>
+      </div>
+      
 
       
       </div>

@@ -6,7 +6,7 @@ import ClientContactUs from "./ContactUs";
 const ClientDetails = () => {
   return (
     <>
-    <div className="bg-[#8ad5e2] pt-[21px] pb-[38px] font-sans -mx-4 lg:-mx-8">
+    <div className="bg-[#8ad5e2] pt-[21px] pb-[38px] font-sans -mx-4  lg:-mx-0">
     <div className="max-w-screen-lg mx-auto px-4 lg:px-8">
       <form className="bg-white max-w-md mx-auto mt-5 w-full lg:w-[527px] shadow-lg rounded-xl">
         <div className="flex gap-4 p-4">
