@@ -170,17 +170,17 @@ const Certificate = () => {
   };
   return (
     <div className="mt-[60px] lg:mt-0 font-sans   ">
-      <h2 className="text-[#005447] text-wrap justify-normal lg:text-[32px] font-bold">
+      <h2 className="text-[#005447] px-4 lg:px-[100px] text-wrap justify-normal lg:text-[32px] font-bold">
         Halal Certified Companies
       </h2>
-      <p className="text-sm font-medium font-sans lg:w-8/12 lg:text-black text-[#646464] mt-4 lg:mt-2 ">
+      <p className="text-sm font-medium px-4 lg:px-[100px] font-sans lg:w-8/12 lg:text-black text-[#646464] mt-4 lg:mt-2 ">
         Here is the list or directory of Food Companies who secured HALAL
         certificate. HALAL Certified Food Companies include Manufacturers,
         Suppliers, Exporters, Importers, Distributors, Producers, Traders etc.
       </p>
       <div className="hidden lg:block flex flex-col mt-6">
         <div className="-m-1.5 overflow-x-auto">
-          <div className="p-1.5 min-w-full inline-block align-middle">
+          <div className="p-1.5 min-w-full px-4 lg:px-[100px] inline-block align-middle">
             <div className="border border-gray-200 bg-white rounded-lg overflow-hidden">
               <table className="min-w-full divide-y divide-gray-200 table-auto">
                 <thead>
@@ -279,7 +279,7 @@ const Certificate = () => {
                 </p>
               </div>
             </div>
-            <button className="absolute bottom-4 right-4">
+            <Link to='/clientdeatils' className="absolute bottom-4 right-4">
               <svg
                 width="24"
                 height="24"
@@ -303,7 +303,7 @@ const Certificate = () => {
                   strokeLinejoin="round"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         );
       })}

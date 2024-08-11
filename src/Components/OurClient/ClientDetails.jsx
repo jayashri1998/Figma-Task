@@ -6,22 +6,25 @@ import ClientContactUs from "./ContactUs";
 const ClientDetails = () => {
   return (
     <>
-      <div className="bg-[#8ad5e2] pt-[21px] pb-[38px] px-4 font-sans">
-        <form className=" bg-white max-w-md mx-auto  mt-5  w-full lg:w-[527px] shadow-lg rounded-xl">
-          <div className="flex gap-4 p-4">
-            <button className=" inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-              <img src={img} alt="search" className="w-6 h-6" />
-            </button>
-            <input
-              type="search"
-              id="default-search"
-              className="text-base font-normal lg:w-[527px] font-sans "
-              placeholder="Search for companies / products / services"
-              required
-            />
-          </div>
-        </form>
-      </div>
+    <div className="bg-[#8ad5e2] pt-[21px] pb-[38px] font-sans -mx-4 lg:-mx-8">
+    <div className="max-w-screen-lg mx-auto px-4 lg:px-8">
+      <form className="bg-white max-w-md mx-auto mt-5 w-full lg:w-[527px] shadow-lg rounded-xl">
+        <div className="flex gap-4 p-4">
+          <button className="inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+            <img src={img} alt="search" className="w-6 h-6" />
+          </button>
+          <input
+            type="search"
+            id="default-search"
+            className="text-base font-normal w-full font-sans"
+            placeholder="Search for companies / products / services"
+            required
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+  
       <div className="mt-10 space-y-4 w-full  p-3 lg:px-[100px]">
         <div className="bg-white border border-gray-50 rounded-lg p-4 flex  gap-6">
           <img src={Logo1} alt="Logo" />
@@ -272,7 +275,7 @@ const ClientDetails = () => {
             </div>
           </div>
         </div>
-        <ClientContactUs/>
+           <ClientContactUs/>
       </div>
    
     </>
