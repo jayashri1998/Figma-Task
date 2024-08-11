@@ -4,7 +4,7 @@ import Layout from "../Layout/Layout";
 
 const Home = () => {
   return (
-    <div className=" bg-[#F0F6EE]  ">
+    <div className=" bg-[#F0F6EE]   ">
 
         <Herosection />
     

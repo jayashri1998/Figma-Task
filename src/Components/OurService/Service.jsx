@@ -11,7 +11,10 @@ const Service = () => {
   
   <Herosection/>
     </div>
-   
+    <OurService/>
+<OurObjective/>
+<Ourprocess/>
+<ContactUs/>
     </div>
   )
 }

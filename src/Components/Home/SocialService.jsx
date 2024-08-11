@@ -42,7 +42,6 @@ const SocialService = () => {
 
   const handleIndicatorClick = (index) => {
     setActiveIndex(index);
-    // Ensure scrollIntoView affects only the card container
     cardRefs.current[index]?.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',
@@ -55,19 +54,19 @@ const SocialService = () => {
       <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold leading-normal tracking-[0.64px]'>
         Upcoming Events
       </h2>
-      <div className='flex gap-6 pt-6 w-full max-w-[365px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-full lg:gap-6 overflow-x-hidden snap-x snap-mandatory'>
+      <div className='flex gap-6 pt-6 w-full overflow-x-auto snap-x snap-mandatory'>
         {images.map((event, index) => (
           <div
             key={event.id}
             ref={(el) => (cardRefs.current[index] = el)}
-            className='flex-shrink-0'
+            className='flex-shrink-0 w-[252px] max-w-full'
           >
             <img
               src={event.image}
               alt={event.title}
-              className='w-[252px] h-[168px] rounded-t-xl'
+              className='w-full h-[168px] rounded-t-xl object-cover'
             />
-            <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4 w-[252px]'>
+            <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4'>
               <h3 className='text-base font-bold text-[#111111]'>{event.title}</h3>
               <p className='text-base font-normal text-[#646464]'>
                 {event.description}

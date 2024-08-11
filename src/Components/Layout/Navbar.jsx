@@ -3,7 +3,7 @@ import img1 from "../../assets/search-normal.svg";
 import img3 from "../../assets/User1.svg";
 import logo from "../../assets/image9.png";
 import close from "../../assets/close-circle.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 const Navbar = () => {
   const [isInputVisible, setInputVisible] = useState(false);
@@ -55,24 +55,46 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-start gap-[16px] ">
-            <div className="flex  justify-center items-center gap-[16px]">
-              <Link to='/our clients' className=" px-[10px] py-[8px] text-[#000] font-sans text-[14px] font-normal leading-[24px]">
-                {" "}
-                Our Clients
-              </Link>
-              <Link to='/ourservices' className="px-[10px] py-[8px]  text-[#000] font-sans text-[14px] font-normal leading-[24px]">
-                Services
-              </Link>
-              <Link to='/about us' className=" px-[10px] py-[8px] text-[#000] font-sans text-[14px] font-normal leading-[24px]">
-                About us
-              </Link>
-              <Link to='/communty' className="px-[10px] py-[8px]  text-[#000] font-sans text-[14px] font-normal leading-[24px]">
-                Community
-              </Link>
-            </div>
-            <button className="flex w-[120px] h-[40px] px-[32px] py-[12px] justify-center items-center gap-[10px] rounded-[4px] border border-[#005447] bg-[#008F78] font-sans text-[16px] font-semibold text-white leading-normal">
+          <div className="flex justify-center items-center gap-[16px]">
+          <NavLink 
+            to='/ourclient' 
+            className={({ isActive }) => 
+              `px-[10px] py-[8px] font-sans text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000]'}`
+            }
+          >
+            Our Clients
+          </NavLink>
+        
+          <NavLink 
+            to='/ourservices' 
+            className={({ isActive }) => 
+              `px-[10px] py-[8px] font-sans text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000]'}`
+            }
+          >
+            Services
+          </NavLink>
+        
+          <NavLink 
+            to='/about' 
+            className={({ isActive }) => 
+              `px-[10px] py-[8px] font-sans text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000]'}`
+            }
+          >
+            About us
+          </NavLink>
+        
+          <NavLink 
+            to='/community' 
+            className={({ isActive }) => 
+              `px-[10px] py-[8px] font-sans text-[14px] font-normal leading-[24px] ${isActive ? 'text-[#008F78]' : 'text-[#000]'}`
+            }
+          >
+            Community
+          </NavLink>
+        </div>
+            <Link to='/login' className="flex w-[120px] h-[40px] px-[32px] py-[12px] justify-center items-center gap-[10px] rounded-[4px] border border-[#005447] bg-[#008F78] font-sans text-[16px] font-semibold text-white leading-normal">
               Login
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -127,13 +149,13 @@ const Navbar = () => {
                   aria-labelledby="options-menu"
                 >
                   <div className="py-1" role="none">
-                    <a
-                      href="/profile"
+                    <Link
+                      to="/profile"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
                     >
                       Your Profile
-                    </a>
+                    </Link>
                     <a
                       href="/settings"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
@@ -179,23 +201,23 @@ const Navbar = () => {
               Home
             </span>
           </Link>
-          <a href="/link1" className="block text-[#313131] font-normal text-base">
+          <Link to="/ourclient" className="block text-[#313131] font-normal text-base">
           <span className="p-[10px] block">Our Client</span>
           <div className="border-t border-gray-300"></div>
-        </a>
+        </Link>
         
-        <a href="/link1" className="block text-[#313131] font-normal text-base">
+        <Link to="/ourservices" className="block text-[#313131] font-normal text-base">
         <span className="p-[10px] block">Services</span>
         <div className="border-t border-gray-300"></div>
-      </a>
-      <a href="/link1" className="block text-[#313131] font-normal text-base">
+      </Link>
+      <Link to="/about" className="block text-[#313131] font-normal text-base">
       <span className="p-[10px] block">About us</span>
       <div className="border-t border-gray-300"></div>
-    </a>
-    <a href="/link1" className="block text-[#313131] font-normal text-base">
+    </Link>
+    <Link to="/comm" className="block text-[#313131] font-normal text-base">
     <span className="p-[10px] block">Community</span>
     
-  </a>
+  </Link>
     
       
             </nav>
