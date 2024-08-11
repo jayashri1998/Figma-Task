@@ -32,7 +32,7 @@ const OurService = () => {
 
         {/* Title Overlay */}
         <div className='absolute bottom-0 w-full bg-opacity-50 p-[30px_27px_12px_12px]'>
-          <h1 className='text-white text-base font-bold'>
+          <h1 className='text-white  text-[10px] lg:text-base font-bold'>
             {image.title}
           </h1>
         </div>
