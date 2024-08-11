@@ -29,11 +29,11 @@ const Card = () => {
           <div
             key={index}
             ref={(el) => (cardRefs.current[index] = el)}
-            className={`bg-white rounded-xl p-6 min-w-[160px] ${
+            className={`bg-white rounded-xl p-6 min-w-[252px] ${
               activeIndex === index ? 'sm:ring-2 sm:ring-[#005447] md:ring-2 md:ring-[#005447] lg:ring-0' : ''
-            } lg:pl-[36px] lg:pr-[37px] lg:pt-9 lg:py-[37px] snap-center`}
+            } pl-[36px] pr-[37px] pt-9 py-[37px] snap-center`}
           >
-            <img src={image} alt={`img${index + 1}`} className='lg:w-[187px] lg:h-[187px]' />
+            <img src={image} alt={`img${index + 1}`} className='l' />
           </div>
         ))}
       </div>

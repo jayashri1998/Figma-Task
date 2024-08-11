@@ -183,7 +183,7 @@ const Certificate = () => {
       <div className="hidden lg:block flex flex-col mt-6">
         <div className="-m-1.5 overflow-x-auto">
           <div className="p-1.5 min-w-full px-4 lg:px-[100px] inline-block align-middle">
-            <div className="border border-gray-200 bg-white rounded-lg overflow-hidden">
+            <div className="border border-[#DADADA] bg-white rounded-lg overflow-hidden">
               <table className="min-w-full divide-y divide-gray-200 table-auto">
                 <thead>
                   <tr className="bg-[#fbfbfb]">
@@ -225,13 +225,13 @@ const Certificate = () => {
                     </th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-gray-200">
+                <tbody className="divide-y divide-[#DADADA]">
                   {currentItem.map((company) => (
                     <tr key={company.id}>
                       <td className="px-4 ">
                         <img src={company.img} alt="logo" />
                       </td>
-                      <td className="py-7 font-medium text-sm text-[#111111] whitespace-nowrap">
+                      <td className="py-7 font-semibold text-sm text-[#111111] whitespace-nowrap">
                         {company.company_name}
                       </td>
                       <td className="py-7 flex font-medium text-sm text-[#313131] gap-2 whitespace-nowrap">
