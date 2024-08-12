@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <>
-    <div className='hidden lg:block flex w-[1280px] px-[10px] py-[8px] flex-col items-center gap-[10px] bg-[#002721] relative'>
+    <div className='hidden lg:block flex w-full px-[10px] py-[8px] flex-col items-center gap-[10px] bg-[#002721] relative'>
   <div className="flex w-full">
     <div className="flex justify-center items-start gap-[24px] mx-auto">
       <div className="text-center text-[#FFF] font-montserrat text-[16px] font-medium leading-[24px] tracking-[0.32px]">

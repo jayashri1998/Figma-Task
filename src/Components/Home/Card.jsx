@@ -19,17 +19,17 @@ const Card = () => {
   return (
     <div className='mt-[60px] lg:mt-[120px] overflow-hidden font-sans'>
       <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold'>Global Accreditations</h2>
-      <p className='pt-4 lg:py-3 text-sm text-justify lg:text-base font-medium lg:font-normal text-[#646464]'>
+      <p className='pt-4 lg:py-3 text-sm text-justify leading-6 lg:text-base font-medium lg:font-normal text-[#646464]'>
         Accreditation is a formal, independent verification that a program or institution meets established quality standards and is competent to carry out specific conformity assessment tasks.
       </p>
 
       {/* Card Container */}
-      <div className='mt-6 flex gap-[14px] w-full max-w-[365px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-full lg:gap-6 overflow-x-hidden snap-x snap-mandatory'>
+      <div className='mt-6 flex  w-full max-w-[365px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-full gap-4 lg:gap-6 overflow-x-hidden snap-x snap-mandatory'>
   {images.map((image, index) => (
     <div
       key={index}
       ref={(el) => (cardRefs.current[index] = el)}
-      className={`bg-white rounded-xl p-6 min-w-[160px] w-[160px] h-[160px] lg:w-[252px] lg:h-[252px] flex items-center justify-center ${
+      className={`bg-white rounded-xl p-6 min-w-[160px] w-[160px] h-[160px] lg:w-[270px] lg:h-[270px] flex items-center justify-center ${
         activeIndex === index ? '' : ''
       } snap-center`}
     >
@@ -41,7 +41,7 @@ const Card = () => {
 
       {/* Indicator Buttons (Only visible on mobile) */}
       <div className='mt-4 flex justify-center w-full lg:hidden'>
-        <div className="flex justify-center w-full max-w-xs space-x-[6px]">
+        <div className="flex justify-center w-full max-w-xs space-x-[6]">
           {images.map((_, index) => (
             <button
               key={index}

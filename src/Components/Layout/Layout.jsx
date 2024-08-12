@@ -6,8 +6,8 @@ import Footer from './Footer';
 
 const Layout = ({ children }) => {
   return (
-    <div className='bg-black flex flex-col min-h-screen'>
-    <div className='w-full max-w-[1280px] mx-auto flex flex-col'>
+    <div className='w-full flex flex-col min-h-screen'>
+    <div className='w-full  mx-auto flex flex-col'>
       <Navbar />
       <Header className='hidden lg:block' />
       <main className='bg-[#F0F6EE] flex-grow px-4 lg:px-0'>

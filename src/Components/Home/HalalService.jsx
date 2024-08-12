@@ -6,7 +6,7 @@ const HalalService = () => {
     <div className='mt-[60px] lg:mt-[120px] font-montserrat'>
       <h2 className='text-[#005447] text-wrap justify-normal leading-6 lg:text-[32px] font-bold'>Here’s What we do</h2>
       <div className='flex flex-col lg:pt-3 lg:flex-row lg:justify-between gap-6 lg:gap-[116px]'>
-        <div className='order-1 lg:order-2 shrink-0 mt-6 lg:mt-3'>
+        <div className='order-1 lg:order-2 flex justify-center items-center shrink-0 mt-6 lg:mt-0'>
           <img src={img5} alt='Halal Service' className=' lg:w-[436px] lg:h-[272px] rounded-xl'/>
         </div>
         <div className='order-2 lg:order-1 justify-normal shrink-0 lg:w-[528px]'>

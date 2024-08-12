@@ -130,7 +130,7 @@ const ContactUs = () => {
     
    
     
-            <button className='flex mt-8 rounded-xl text-sm font-semibold lg:w-[400px] p-[12px_32px] justify-center items-center lg:gap-[10px] bg-[#008F78] text-white'>
+            <button className='flex mt-8 rounded-xl text-sm font-semibold lg:w-[400px] p-[12px_32px] justify-center items-center lg:gap-[10px] bg-[#008F78] text-white border border-[#005447]'>
               Submit
             </button>
           </div>

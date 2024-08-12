@@ -7,8 +7,10 @@ const Home = () => {
     <div className=" bg-[#F0F6EE]   ">
 
         <Herosection />
+       
     
     </div>
+ 
   );
 };
 

@@ -10,8 +10,8 @@ const OurObjective = () => {
       </div>
       <div className='order-2 lg:order-1 leading-6 shrink-0 lg:w-[528px]'>
         <div className=' text-sm lg:text-base font-normal text-[#646464]'>
-       <span className='lg:text-[#646464] text-gray-800'>  The objects for which the council is established are:</span>
-<ul className='list-disc px-5 space-y-6 mt-6'>
+       <span className=' text-[#313131] w-full lg:text-[#646464] font-semibold text-sm text-justify'>  The objects for which the council is established are:</span>
+<ul className='list-disc text-justify px-5 space-y-6 mt-6'>
 <li >To help alleviate poverty by enabling access to the basic necessities of life including clean, safe and nutritious food, clean and safe drinking water, shelter, education and livelihoods for people deprived from such access.</li>
 
 <li>To advise/identify/certify the clean and safe Food & Better Lifestyle for the society with mindful of encouragement.</li>

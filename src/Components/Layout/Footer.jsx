@@ -16,9 +16,9 @@ const Footer = () => {
             name="email"
             id="email"
             placeholder="Enter email address"
-            className="text-[#313131] w-full lg:w-auto flex-grow lg:flex-grow-0"
+            className="text-[#313131] w-full lg:w-auto flex-grow lg:flex-grow-0 rounded-full"
           />
-          <button className="text-white text-sm py-2  font-semibold rounded-full   lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447]">
+          <button className="text-white text-sm py-2  font-semibold rounded-full border  lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447]">
             Subscribe
           </button>
         </div>

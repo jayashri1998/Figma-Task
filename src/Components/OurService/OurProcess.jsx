@@ -5,13 +5,13 @@ const Ourprocess = () => {
     <div className='mt-[60px] lg:mt-[120px] font-montserrat'>
     <h2 className='text-[#005447] text-wrap justify-normal lg:text-[32px] font-bold'>Our Process</h2>
     <div className='flex flex-col lg:flex-row lg:justify-between gap-6 lg:gap-[116px]'>
-      <div className='order-1 lg:order-2 lg:flex lg:justify-center lg:items-center shrink-0 mt-6 lg:mt-0'>
+      <div className='order-1 lg:order-2 flex justify-center items-center shrink-0 mt-6 lg:mt-0'>
         <img src={img5} alt='Halal Service' className=' rounded-xl'/>
       </div>
       <div className='order-2 lg:order-1 mt-6 lg:mt-3 shrink-0 lg:w-[528px]'>
         <div className=' text-sm lg:text-base  font-normal text-[#646464]'>
-       <span className=' text-[#313131] leading-6 lg:font-medium font-semibold text-sm lg:text-base'>  While providing Halal certification, a competent authority audits and ensures that the business:</span>
-<ul className='list-disc px-5 text-[#313131] leading-6 space-y-6 mt-6 font-medium  lg:font-normal text-sm lg:text-base'>
+       <span className=' text-[#313131] leading-6 lg:font-medium font-semibold text-sm lg:text-base text-justify'>  While providing Halal certification, a competent authority audits and ensures that the business:</span>
+<ul className='list-disc px-5 text-[#313131] tracking-tighter text-justify -tracking-2 space-y-6 mt-6 font-medium  lg:font-normal text-sm lg:text-base'>
 <li className='' >Neither is nor consist of or contains any part or matter of an animal that a Muslim is prohibited by Shariah to consume or that has not been slaughtered in accordance with Shariah.</li>
 
 <li>Does not contain anything which is considered to be impure according to Shariah.</li>
@@ -53,7 +53,7 @@ Has not in the course of preparation, processing or storage been in contact with
     <li>Packaging and labeling</li>
     </ul>
     </div>
-    <p className='pt-6 font-normal text-base text-[#2A422B]'>During the audit, the business might have to provide criteria of acceptance of raw materials (ingredients), certificate of analysis and Halal certificate of individual ingredient. Once, the audit is completed, an audit report will be prepared and signed by both parties.</p>
+    <p className='pt-6 font-normal text-base text-justify text-[#2A422B]'>During the audit, the business might have to provide criteria of acceptance of raw materials (ingredients), certificate of analysis and Halal certificate of individual ingredient. Once, the audit is completed, an audit report will be prepared and signed by both parties.</p>
     </div>
     <div className='border rounded-lg bg-white p-4'>
     <h2 className='gap-[3px]'>
