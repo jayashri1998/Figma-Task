@@ -29,7 +29,7 @@ const Card = () => {
     <div
       key={index}
       ref={(el) => (cardRefs.current[index] = el)}
-      className={`bg-white rounded-xl p-6 min-w-[160px] w-[160px] h-[160px] lg:w-[270px] lg:h-[270px] flex items-center justify-center ${
+      className={`bg-white rounded-xl p-6 min-w-[160px] w-[160px] h-[160px] lg:w-[252px] lg:h-[270px] flex items-center justify-center ${
         activeIndex === index ? '' : ''
       } snap-center`}
     >
