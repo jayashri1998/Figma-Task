@@ -4,7 +4,7 @@ import img from '../../assets/establised.svg';
 const MainHerosection = () => {
   return (
     
-    <div className="flex flex-col lg:flex-row  items-center space-y-4 lg:gap-40">
+    <div className="flex flex-col lg:flex-row  items-center  justify-between space-y-4 ">
       {/* Image section */}
       <div className="order-1 lg:order-2 w-full lg:w-[500px] lg:h-[322px] shrink-0 lg:pl-8">
         <img src={img} alt="img" className="w-full h-full object-cover" />
