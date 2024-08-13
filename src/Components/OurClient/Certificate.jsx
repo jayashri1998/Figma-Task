@@ -402,7 +402,8 @@ const Certificate = () => {
   >
     Previous
   </button>
-  <div className="flex space-x-2">
+  <div className="flex space-x-2 overflow-x-auto whitespace-nowrap">
+  <div className="inline-flex space-x-2 justify-center">
     {Array.from({ length: totalPages }, (_, index) => (
       <button
         key={index + 1}
@@ -416,6 +417,7 @@ const Certificate = () => {
         {index + 1}
       </button>
     ))}
+  </div>
   </div>
   <button
     onClick={handleNextPage}

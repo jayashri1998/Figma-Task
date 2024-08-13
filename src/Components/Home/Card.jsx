@@ -24,7 +24,7 @@ const Card = () => {
       </p>
 
       {/* Card Container */}
-      <div className='mt-6 flex  w-full max-w-[365px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-full gap-4 lg:gap-6 overflow-x-hidden snap-x snap-mandatory'>
+      <div className='mt-6 flex  w-full max-w-[365px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-full items-center justify-between gap-4 lg:gap-0 overflow-x-hidden snap-x snap-mandatory'>
   {images.map((image, index) => (
     <div
       key={index}

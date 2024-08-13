@@ -18,7 +18,7 @@ const Footer = () => {
             placeholder="Enter email address"
             className="text-[#313131] w-full lg:w-auto flex-grow lg:flex-grow-0 rounded-full"
           />
-          <button className="text-white text-sm py-2  font-semibold rounded-full border  lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447]">
+          <button className="text-white text-sm py-2   font-semibold rounded-full border  lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447]">
             Subscribe
           </button>
         </div>
@@ -30,9 +30,9 @@ const Footer = () => {
     
       <footer className="bg-[#014439]  pt-6 px-4 pb-3 lg:px-[100px] lg:pt-[65px] lg:pb-[48px]">
 
-        <div className="lg:flex justify-between items-start lg:w-[1080px] lg:h-[168px] gap-[275px]">
+        <div className="lg:flex justify-between items-center  lg:h-[168px] gap-[275px]">
           <div className="mb-6 md:mb-0">
-            <img src={img} alt="img" className="h-[89px] w-[93px]" />
+            <img src={img} alt="img" className="h-[89px] w-[93px]" /> 
           </div>
           <div className="lg:flex flex-grow justify-end space-y-[40px] lg:space-y-0 lg:gap-14 ">
           <div className="flex flex-col gap-[16px]">

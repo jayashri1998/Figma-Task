@@ -6,9 +6,9 @@ import ContactUs from '../Home/ContactUs'
 const About = () => {
   return (
     <div className='bg-[#F0F6EE]  p-3 lg:px-[100px] lg:py-[140px] font-montserrat leading-6'>
-    <div className='lg:inline-flex flex-col items-start gap-[120px]'> 
+   
  <Herosection/>
-    </div>
+ 
  <AboutClient/>
  <ContactUs/>
     </div>
