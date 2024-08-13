@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
      
       </footer>
-      <div className="hidden lg:block w-[1280px] h-[40px] py-2 flex-shrink-0 bg-[#002D26]  ">
+      <div className="hidden lg:block  h-[40px] py-2 flex-shrink-0 bg-[#002D26]  ">
   <span className="text-[#DADADA] font-montserrat text-[12px] flex text-center justify-center items-center font-medium leading-[24px]">
     Copyright © halalindia
   </span>
