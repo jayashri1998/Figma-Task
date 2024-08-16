@@ -54,12 +54,12 @@ const SocialService = () => {
       <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold leading-normal tracking-[0.64px]'>
         Upcoming Events
       </h2>
-      <div className='flex items-center justify-between gap-4 lg:gap-0 pt-6 w-full overflow-x-hidden snap-x snap-mandatory'>
+      <div className='flex items-center justify-between gap-6 pt-6 w-full overflow-x-hidden snap-x snap-mandatory'>
         {images.map((event, index) => (
           <div
             key={event.id}
             ref={(el) => (cardRefs.current[index] = el)}
-            className='flex-shrink-0 w-[252px] max-w-full'
+            className='flex-shrink-0 w-[252px] lg:w-[300px] 2xl:w-[400px] 3xl:w-[500px] max-w-full'
           >
             <img
               src={event.image}
