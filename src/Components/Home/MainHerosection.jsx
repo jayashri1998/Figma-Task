@@ -18,7 +18,7 @@ const MainHerosection = () => {
         >
           Halal Certification & Compliance
         </h2>
-        <p className="text-[#313131] pl-3 lg:pl-0 pt-3 text-xs lg:text-lg lg:pt-[16px] font-semibold lg:font-medium lg:leading-[24px] tracking-[3px] lg:tracking-[3.6px] uppercase whitespace-nowrap flex space-x-1 lg:space-x-2">
+        <p className="text-[#313131] pl-3 lg:pl-0 pt-3 text-xs lg:text-lg lg:pt-[16px] font-semibold lg:font-medium lg:leading-[24px] tracking-[1.5px] lg:tracking-[3.6px] uppercase whitespace-nowrap flex space-x-1 lg:space-x-2">
         <span>STAY CLEAN</span>
         <span className="px-1 lg:px-1"> {/* Adjust px for spacing around the separator */}
           |
