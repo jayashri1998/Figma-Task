@@ -18,12 +18,11 @@ const Card = () => {
 
   return (
     <div className='mt-[60px] lg:mt-[120px] overflow-hidden font-sans'>
-    <div className='px-3 py-3 lg:px-[100px] lg:py-[140px]'>
       <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold'>Global Accreditations</h2>
       <p className='pt-4 lg:py-3 text-sm text-justify leading-6 lg:text-base font-medium lg:font-normal text-[#646464]'>
         Accreditation is a formal, independent verification that a program or institution meets established quality standards and is competent to carry out specific conformity assessment tasks.
       </p>
-      </div>
+
       {/* Card Container */}
       <div className='mt-6 flex   w-full max-w-[365px] sm:max-w-[540px] md:max-w-[820px] lg:max-w-full items-center justify-between gap-4 lg:gap-6 overflow-x-hidden snap-x snap-mandatory'>
   {images.map((image, index) => (
