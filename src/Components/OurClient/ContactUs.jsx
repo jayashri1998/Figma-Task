@@ -62,9 +62,9 @@ const ClientContactUs = () => {
                 htmlFor="email"
                 className="text-[#646464] font-medium text-sm lg:font-semibold lg:text-base"
               >
-                Your Email
+                Your Email=
               </label>
-              <input
+              <input 
                 type="text"
                 id="email"
                 className="lg:w-[340px] lg:h-[40px] p-[12px_14px_12px_12px] border border-[#DADADA] text-[#9A9A9A] rounded"

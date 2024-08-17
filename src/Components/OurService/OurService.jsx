@@ -25,7 +25,7 @@ const OurService = () => {
     </p>
 
     {/* Card Container */}
-    <div className='mt-6 grid grid-cols-2 gap-[20px] justify-between  w-full max-w-full lg:grid-cols-4 lg:gap-6 '>
+    <div className='mt-6 grid grid-cols-2 gap-4 justify-between  w-full max-w-full lg:grid-cols-4 lg:gap-6 '>
     {images.map((image, index) => (
       <div key={index} className='relative w-full  rounded-lg overflow-hidden'>
         <img src={image.image} alt='img' className='object-cover   transition-transform duration-300 ease-in-out transform hover:scale-110' />

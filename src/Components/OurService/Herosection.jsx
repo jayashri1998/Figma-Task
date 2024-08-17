@@ -3,45 +3,44 @@ import img from '../../assets/establised.svg';
 
 const Herosection = () => {
   return (
-    <div className="flex flex-col lg:flex-row  items-center  justify-between space-y-4 ">
+    <div className="flex flex-col lg:flex-row justify-between items-center lg:space-x-8 space-y-6 lg:space-y-0">
       {/* Image section */}
-      <div className="order-1 lg:order-2 w-full lg:w-[500px] lg:h-[322px] shrink-0 lg:pl-8">
-        <img src={img} alt="img" className="w-full h-full object-cover" />
+      <div className="order-1 lg:order-2 w-full lg:w-[50%] lg:pl-8">
+        <img src={img} alt="img" className="w-full h-auto object-cover" />
       </div>
 
       {/* Text section */}
-      <div className='flex-col space-y-6 lg:space-y-8 order-2 lg:order-1'>
-        <div className="lg:flex flex-col lg:w-[517px] items-start -mb-1">
+      <div className="order-2 lg:order-1 flex flex-col space-y-6 lg:space-y-8 w-full lg:w-[50%]">
+        <div className="lg:w-full">
           <h2
-            className="w-[300px] lg:w-[412px] text-[#005447] text-[32px] lg:text-[56px] font-bold tracking-[1.12px]"
+            className="text-[#005447] text-[32px] lg:text-[56px] font-bold tracking-[1.12px]"
             style={{ lineHeight: 'normal' }}
           >
             Our Services
-            <p className="text-[#313131]  text-sm lg:text-base pt-[16px] font-normal leading-6">
+            <p className="text-[#313131] text-sm lg:text-base pt-[16px] font-normal leading-6">
               Giving opportunities for entrepreneurs to tap the global market of 2 Trillion.
             </p>
-          </h2>      
+          </h2>
         </div>
-        <div className='flex  gap-2 lg:gap-4'>
-        <div className='border border-[#88c7b6] rounded-xl  p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[100px] min-h-[84px] max-w-[200px] lg:max-w-[149px] lg:h-[110px]'>
-          <span className='font-merriweather font-bold text-sm lg:text-2xl'>2 Billion</span>
-          <p className='font-sans text-xs lg:text-base font-normal'>People of<br/> halal market</p>
-        </div>
-        <div className='border border-[#88c7b6] rounded-xl p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[110px] min-h-[84px] max-w-[200px] lg:max-w-[149px] lg:h-[110px]'>
-          <span className='font-merriweather font-bold text-base lg:text-2xl'>200%</span>
-          <p className='font-sans text-xs lg:text-base font-normal'>Profit of greater market share</p>
-        </div>
-        <div className='border border-[#88c7b6] rounded-xl  p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[110px] min-h-[84px] max-w-[200px] lg:max-w-[149px] lg:h-[110px]'>
-          <span className='font-merriweather font-bold text-base lg:text-2xl'>56+</span>
-          <p className='font-sans text-xs lg:text-base font-normal'>OIC countries export gateway</p>
-        </div>
-      </div>
-      
 
-      
+        {/* Stats Section */}
+        <div className="flex flex-wrap gap-4">
+          <div className="border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[120px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
+            <span className="font-merriweather font-bold text-sm lg:text-2xl block">2 Billion</span>
+            <p className="font-sans text-xs lg:text-sm font-normal">People of<br /> halal market</p>
+          </div>
+          <div className="border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[120px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
+            <span className="font-merriweather font-bold text-sm lg:text-2xl block">200%</span>
+            <p className="font-sans text-xs lg:text-sm font-normal">Profit of greater market share</p>
+          </div>
+          <div className="border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[120px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
+            <span className="font-merriweather font-bold text-sm lg:text-2xl block">56+</span>
+            <p className="font-sans text-xs lg:text-sm font-normal">OIC countries export gateway</p>
+          </div>
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default Herosection;

@@ -7,22 +7,22 @@ const Footer = () => {
   
       < div className='font-montserrat'>
       <div className="w-full bg-[#002721] p-3">
-      <div className="lg:flex mx-auto max-w-screen-lg px-2 lg:px-4  lg:justify-between flex-col lg:flex-row">
+      <div className="lg:flex mx-auto max-w-screen-qxl px-2 lg:px-4  lg:gap-8 lg:justify-between flex-col lg:flex-row">
         <span className="text-[#FFF] py-[24px] text-center justify-center flex lg:text-left text-[16px] font-normal lg:leading-[24px]">
           Subscribe and stay up-to-date on the latest news and upcoming events
         </span>
-        <div className="bg-white my-[16px] w-full sm:w-[300px] border border-gray-800 flex rounded-full px-4 lg:px-6 lg:w-auto">
-          <input
-            name="email"
-            id="email"
-            placeholder="Enter email address"
-            className="text-[#313131] w-full lg:w-auto flex-grow lg:flex-grow-0 rounded-full"
-          />
-          <button className="text-white text-sm py-2   font-semibold rounded-full border  lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447]">
-            Subscribe
-          </button>
+          <div className="bg-white my-[16px] w-full  border border-gray-800 flex rounded-full px-4 lg:px-6 lg:w-auto">
+            <input
+              name="email"
+              id="email"
+              placeholder="Enter email address"
+              className="text-[#313131] w-full lg:w-auto flex-grow lg:flex-grow-0 rounded-full"
+            />
+            <button className="text-white text-sm py-2   font-semibold rounded-full border  lg:mx-0 px-4 my-[8px] bg-[#008F78] border-[#005447]">
+              Subscribe
+            </button>
+          </div>
         </div>
-      </div>
   
     
         </div>
