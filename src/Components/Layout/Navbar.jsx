@@ -196,31 +196,54 @@ const Navbar = () => {
             
          
             <nav className="space-y-4">
-            <Link to="/" className="block w-full bg-[#008F78]">
-            <span className="block p-[10px] w-full text-white font-semibold text-base">
-              Home
-            </span>
-          </Link>
-          <Link to="/ourclient" className="block text-[#313131] font-normal text-base">
-          <span className="p-[10px] block">Our Client</span>
-          <div className="border-t border-gray-300"></div>
-        </Link>
-        
-        <Link to="/ourservices" className="block text-[#313131] font-normal text-base">
-        <span className="p-[10px] block">Services</span>
-        <div className="border-t border-gray-300"></div>
-      </Link>
-      <Link to="/about" className="block text-[#313131] font-normal text-base">
-      <span className="p-[10px] block">About us</span>
-      <div className="border-t border-gray-300"></div>
-    </Link>
-    <Link to="/comm" className="block text-[#313131] font-normal text-base">
-    <span className="p-[10px] block">Community</span>
-    
-  </Link>
-    
-      
-            </nav>
+            <NavLink 
+              to="/" 
+              className={({ isActive }) => 
+                `block w-full ${isActive ? 'text-white bg-[#008F78] font-semibold' : 'text-[#313131] font-semibold'}`
+              }
+            >
+              <span className="block p-[10px]">Home</span>
+            </NavLink>
+          
+            <NavLink 
+              to="/ourclient" 
+              className={({ isActive }) => 
+                `block w-full ${isActive ? 'text-white bg-[#008F78] font-semibold' : 'text-[#313131] font-normal'}`
+              }
+            >
+              <span className="block p-[10px]">Our Client</span>
+              <div className="border-t border-gray-300"></div>
+            </NavLink>
+          
+            <NavLink 
+              to="/ourservices" 
+              className={({ isActive }) => 
+                `block w-full ${isActive ? 'text-white bg-[#008F78] font-semibold' : 'text-[#313131] font-normal'}`
+              }
+            >
+              <span className="block p-[10px]">Services</span>
+              <div className="border-t border-gray-300"></div>
+            </NavLink>
+          
+            <NavLink 
+              to="/about" 
+              className={({ isActive }) => 
+                `block w-full ${isActive ? 'text-white bg-[#008F78] font-semibold' : 'text-[#313131] font-normal'}`
+              }
+            >
+              <span className="block p-[10px]">About us</span>
+              <div className="border-t border-gray-300"></div>
+            </NavLink>
+          
+            <NavLink 
+              to="/comm" 
+              className={({ isActive }) => 
+                `block w-full ${isActive ? 'text-white bg-[#008F78] font-semibold' : 'text-[#313131] font-normal'}`
+              }
+            >
+              <span className="block p-[10px]">Community</span>
+            </NavLink>
+          </nav>
           </div>
         </div>
         {isToggle && (
