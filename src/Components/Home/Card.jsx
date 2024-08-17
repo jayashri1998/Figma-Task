@@ -19,7 +19,7 @@ const Card = () => {
   return (
     <div className='mt-[60px] lg:mt-[120px] overflow-hidden font-sans'>
       <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold'>Global Accreditations</h2>
-      <p className='pt-4 lg:py-3 text-sm text-justify leading-6 lg:text-base font-medium lg:font-normal text-[#646464]'>
+      <p className='pt-4 lg:py-3 text-sm text-justify leading-6 lg:text-base  xl:text-lg 2xl:text-xl font-medium lg:font-normal text-[#646464]'>
         Accreditation is a formal, independent verification that a program or institution meets established quality standards and is competent to carry out specific conformity assessment tasks.
       </p>
 

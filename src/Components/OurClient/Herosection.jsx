@@ -7,7 +7,7 @@ const Herosection = () => {
         setSearchProduct(e.target.value);
       };
   return (
-    <div className="flex flex-col px-4 lg:px-[100px] lg:flex-row items-center justify-center ">
+    <div className="flex flex-col px-2 lg:px-[100px] lg:flex-row items-center justify-center ">
       {/* Text section */}
       <form className= " bg-white max-w-md mx-auto lg:mt-[100px] lg:mb-[144px] mt-5  w-full lg:w-[527px] shadow-lg rounded-xl">
        

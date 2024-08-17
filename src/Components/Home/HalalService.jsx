@@ -19,10 +19,10 @@ const HalalService = () => {
         
         {/* Text Section */}
         <div className="order-2 lg:order-1 lg:w-2/4">
-          <p className="text-sm lg:text-base leading-6 text-[#646464]">
+          <p className="text-sm lg:text-base  xl:text-lg 2xl:text-xl leading-6 text-[#646464]">
             Halal India Research Council is an NGO registered in India under section 8 by the Ministry of Corporate Affairs for service-level activities. It provides Halal certificates for food, meat products, cosmetics, and pharmaceutical products and helps all logistics partners worldwide with its services.
           </p>
-          <p className="pt-4 lg:pt-6 text-sm lg:text-base leading-6 text-[#646464]">
+          <p className="pt-4 lg:pt-6 text-sm lg:text-base  xl:text-lg 2xl:text-xl leading-6 text-[#646464]">
             Halal is a term from the Quran that means “permitted” or “lawful”. Therefore, in relation to food, Halal is used for food and other consumables that are permissible for consumption and used by Muslims, based on Islamic law, the Shariah. Halal promotes cleanliness in all aspects of a person, and Halal foods ensure that food consumed by a person in their daily lives is clean, hygienic, and not detrimental to their health or well-being.
           </p>
         </div>

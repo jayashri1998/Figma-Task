@@ -11,7 +11,7 @@ const MainHerosection = () => {
         >
           Halal Certification & Compliance
         </h2>
-        <p className="text-[#313131] pt-3 text-xs lg:text-lg font-semibold uppercase tracking-wide whitespace-nowrap flex space-x-2">
+        <p className="text-[#313131] pt-3 text-xs xl:text-lg font-semibold uppercase tracking-wide whitespace-nowrap flex space-x-2">
           <span>STAY CLEAN</span>
           <span>|</span>
           <span>EAT GOOD</span>

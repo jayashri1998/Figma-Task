@@ -68,13 +68,13 @@ const SocialService = () => {
                 className='w-full h-[168px] lg:h-[200px] xl:h-[250px] rounded-t-xl object-cover'
               />
               <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4'>
-                <h3 className='text-base font-bold text-[#111111]'>{event.title}</h3>
-                <p className='text-base leading-6 font-normal text-[#646464]'>
+                <h3 className='text-base xl:text-lg font-bold text-[#111111]'>{event.title}</h3>
+                <p className='text-base xl:text-lg 2xl:text-6xl leading-6 font-normal text-[#646464]'>
                   {event.description}
                 </p>
                 <a
                   href={event.link}
-                  className='text-[#008F78] font-semibold text-base flex pt-4'
+                  className='text-[#008F78] font-semibold text-base xl:text-lg flex pt-4'
                 >
                   View more
                   <svg

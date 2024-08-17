@@ -24,16 +24,16 @@ const Herosection = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="flex flex-wrap gap-4">
-          <div className="border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[120px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
-            <span className="font-merriweather font-bold text-sm lg:text-2xl block">2 Billion</span>
+        <div className="flex  gap-4">
+          <div className="border border-[#88c7b6] rounded-xl p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[103px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
+            <span className="font-merriweather font-bold sm:text-xs lg:text-2xl block">2 Billion</span>
             <p className="font-sans text-xs lg:text-sm font-normal">People of<br /> halal market</p>
           </div>
-          <div className="border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[120px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
+          <div className="border border-[#88c7b6] rounded-xl p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[103px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
             <span className="font-merriweather font-bold text-sm lg:text-2xl block">200%</span>
             <p className="font-sans text-xs lg:text-sm font-normal">Profit of greater market share</p>
           </div>
-          <div className="border border-[#88c7b6] rounded-xl p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[120px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
+          <div className="border border-[#88c7b6] rounded-xl p-2 lg:p-4 text-[#005447] bg-[#E2EDDF] flex-1 min-w-[103px] max-w-[200px] lg:max-w-[149px] lg:h-[110px] overflow-hidden">
             <span className="font-merriweather font-bold text-sm lg:text-2xl block">56+</span>
             <p className="font-sans text-xs lg:text-sm font-normal">OIC countries export gateway</p>
           </div>

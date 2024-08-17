@@ -253,10 +253,10 @@ const Certificate = () => {
 
   return (
     <div className="mt-[60px] lg:mt-0 font-sans   ">
-      <h2 className="text-[#005447] px-4 lg:px-[100px] text-wrap justify-normal lg:text-[32px] font-bold">
+      <h2 className="text-[#005447] px-2 lg:px-[100px] text-wrap justify-normal lg:text-[32px] font-bold">
         Halal Certified Companies
       </h2>
-      <p className="text-sm font-medium px-4 lg:px-[100px] font-sans lg:w-8/12 lg:text-black text-[#646464] mt-4 lg:mt-2 ">
+      <p className="text-sm  2xl:text-lg font-medium px-4 lg:px-[100px] font-sans lg:w-8/12 lg:text-black text-[#646464] mt-4 lg:mt-2 ">
         Here is the list or directory of Food Companies who secured HALAL
         certificate. HALAL Certified Food Companies include Manufacturers,
         Suppliers, Exporters, Importers, Distributors, Producers, Traders etc.

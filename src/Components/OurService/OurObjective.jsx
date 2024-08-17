@@ -9,14 +9,14 @@ const OurObjective = () => {
       </h2>
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6 lg:gap-[50px] mt-6 lg:mt-10">
         {/* Image Section */}
-        <div className="order-1 lg:order-2 flex justify-center items-center w-full lg:w-[50%]">
+        <div className="order-1 lg:order-2 flex justify-center items-center w-full lg:w-[30%]">
           <img src={img5} alt="Halal Service" className="w-full h-auto rounded-xl" />
         </div>
 
         {/* Text Section */}
         <div className="order-2 lg:order-1 leading-6 w-full lg:w-[50%]">
-          <div className="text-sm lg:text-base font-normal text-[#646464]">
-            <span className="text-[#313131] w-full font-semibold text-sm lg:text-base block">
+          <div className="text-sm lg:text-base  xl:text-lg 2xl:text-xl font-normal text-[#646464]">
+            <span className="text-[#313131] w-full font-semibold text-sm lg:text-base  xl:text-lg 2xl:text-xl block">
               The objects for which the council is established are:
             </span>
             <ul className="list-disc text-justify px-5 space-y-6 mt-6">
