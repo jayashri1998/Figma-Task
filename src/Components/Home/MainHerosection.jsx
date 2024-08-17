@@ -3,7 +3,7 @@ import img from '../../assets/establised.svg';
 
 const MainHerosection = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0 lg:space-x-8">
+    <div className="flex flex-col lg:flex-row justify-between  space-y-6 lg:space-y-0 lg:space-x-8">
       {/* Text section */}
       <div className="order-2 lg:order-1 lg:flex flex-col lg:w-1/2 items-start">
         <h2

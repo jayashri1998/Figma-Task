@@ -54,48 +54,50 @@ const SocialService = () => {
       <h2 className='text-[#005447] text-xl lg:text-[32px] font-bold leading-normal tracking-[0.64px]'>
         Upcoming Events
       </h2>
-      <div className=' flex items-center justify-between gap-6 pt-6 w-full overflow-x-hidden snap-x snap-mandatory'>
-        {images.map((event, index) => (
-          <div
-            key={event.id}
-            ref={(el) => (cardRefs.current[index] = el)}
-            className='flex-shrink-0 w-[252px]   lg:w-[260px]  xl:w-[300px] 2xl:w-[350px] 3xl:w-[500px] max-w-full'
-          >
-            <img
-              src={event.image}
-              alt={event.title}
-              className='w-full h-[168px] rounded-t-xl object-cover'
-            />
-            <div className='text-sm h-[168px] bg-white text-[#646464] rounded-b-xl p-4'>
-              <h3 className='text-base font-bold text-[#111111]'>{event.title}</h3>
-              <p className='text-base leading-6 font-normal text-[#646464]'>
-                {event.description}
-              </p>
-              <a
-                href={event.link}
-                className='text-[#008F78] font-semibold text-base flex pt-4'
-              >
-                View more
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='24'
-                  height='24'
-                  viewBox='0 0 24 24'
-                  fill='none'
+      <div className='mt-6 overflow-hidden'>
+        <div className='flex gap-4 lg:gap-6'>
+          {images.map((event, index) => (
+            <div
+              key={event.id}
+              ref={(el) => (cardRefs.current[index] = el)}
+              className='flex-shrink-0 w-full gap-6 sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1rem)] lg:w-[calc(25%-1.5rem)] xl:w-[calc(25%-1.5rem)]'
+            >
+              <img
+                src={event.image}
+                alt={event.title}
+                className='w-full h-[168px] lg:h-[200px] xl:h-[250px] rounded-t-xl object-cover'
+              />
+              <div className='text-sm bg-white text-[#646464] rounded-b-xl p-4'>
+                <h3 className='text-base font-bold text-[#111111]'>{event.title}</h3>
+                <p className='text-base leading-6 font-normal text-[#646464]'>
+                  {event.description}
+                </p>
+                <a
+                  href={event.link}
+                  className='text-[#008F78] font-semibold text-base flex pt-4'
                 >
-                  <path
-                    d='M8.91016 19.9181L15.4302 13.3981C16.2002 12.6281 16.2002 11.3681 15.4302 10.5981L8.91016 4.07812'
-                    stroke='#008F78'
-                    strokeWidth='1.5'
-                    strokeMiterlimit='10'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                  />
-                </svg>
-              </a>
+                  View more
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='24'
+                    height='24'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                  >
+                    <path
+                      d='M8.91016 19.9181L15.4302 13.3981C16.2002 12.6281 16.2002 11.3681 15.4302 10.5981L8.91016 4.07812'
+                      stroke='#008F78'
+                      strokeWidth='1.5'
+                      strokeMiterlimit='10'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
       <div className='mt-4 flex justify-center w-full lg:hidden'>
         <div className="flex justify-center w-full max-w-xs space-x-[6px]">
