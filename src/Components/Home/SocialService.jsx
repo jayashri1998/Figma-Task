@@ -59,7 +59,7 @@ const SocialService = () => {
           <div
             key={event.id}
             ref={(el) => (cardRefs.current[index] = el)}
-            className='flex-shrink-0 w-[252px]   lg:w-[270px]  xl:w-[300px] 2xl:w-[350px] 3xl:w-[500px] max-w-full'
+            className='flex-shrink-0 w-[252px]   lg:w-[260px]  xl:w-[300px] 2xl:w-[350px] 3xl:w-[500px] max-w-full'
           >
             <img
               src={event.image}
