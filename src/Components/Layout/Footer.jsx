@@ -7,7 +7,7 @@ const Footer = () => {
   
       < div className='font-montserrat'>
       <div className="w-full bg-[#002721] p-3">
-      <div className="lg:flex mx-auto max-w-screen-qxl px-2 lg:px-4  lg:gap-8 lg:justify-between flex-col lg:flex-row">
+      <div className="lg:flex mx-auto max-w-screen-xl px-2 lg:px-4  lg:gap-8 lg:justify-between flex-col lg:flex-row">
         <span className="text-[#FFF] py-[24px] text-center justify-center flex lg:text-left text-[16px] font-normal lg:leading-[24px]">
           Subscribe and stay up-to-date on the latest news and upcoming events
         </span>
